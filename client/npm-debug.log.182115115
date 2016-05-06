@@ -1,0 +1,33 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/devsinc/.nvm/versions/node/v5.10.1/bin/node',
+1 verbose cli   '/home/devsinc/.nvm/versions/node/v5.10.1/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'build:dev:server' ]
+2 info using npm@3.8.3
+3 info using node@v5.10.1
+4 verbose run-script [ 'prebuild:dev:server',
+4 verbose run-script   'build:dev:server',
+4 verbose run-script   'postbuild:dev:server' ]
+5 info lifecycle @~prebuild:dev:server: @
+6 silly lifecycle @~prebuild:dev:server: no script for prebuild:dev:server, continuing
+7 info lifecycle @~build:dev:server: @
+8 verbose lifecycle @~build:dev:server: unsafe-perm in lifecycle true
+9 verbose lifecycle @~build:dev:server: PATH: /home/devsinc/.nvm/versions/node/v5.10.1/lib/node_modules/npm/bin/node-gyp-bin:/home/devsinc/projects/sharetribe/client/node_modules/.bin:/home/devsinc/.nvm/versions/node/v5.10.1/bin:/home/devsinc/.rvm/gems/ruby-2.2.4/bin:/home/devsinc/.rvm/gems/ruby-2.2.4@global/bin:/usr/share/rvm/rubies/ruby-2.2.4/bin:/usr/share/rvm/bin:/home/devsinc/.nvm/versions/node/v5.10.1/bin:/usr/local/heroku/bin:/home/devsinc/.rvm/gems/ruby-2.1.5/bin:/home/devsinc/.rvm/gems/ruby-2.1.5@global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+10 verbose lifecycle @~build:dev:server: CWD: /home/devsinc/projects/sharetribe/client
+11 silly lifecycle @~build:dev:server: Args: [ '-c',
+11 silly lifecycle   'webpack -w --config webpack.server.rails.build.config.js' ]
+12 verbose stack Error: write EPIPE
+12 verbose stack     at exports._errnoException (util.js:890:11)
+12 verbose stack     at WriteWrap.afterWrite (net.js:767:14)
+13 verbose cwd /home/devsinc/projects/sharetribe/client
+14 error Linux 3.19.0-25-generic
+15 error argv "/home/devsinc/.nvm/versions/node/v5.10.1/bin/node" "/home/devsinc/.nvm/versions/node/v5.10.1/bin/npm" "run" "build:dev:server"
+16 error node v5.10.1
+17 error npm  v3.8.3
+18 error code EPIPE
+19 error errno EPIPE
+20 error syscall write
+21 error write EPIPE
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]

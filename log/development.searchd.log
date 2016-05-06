@@ -1,0 +1,21 @@
+[Thu May  5 19:48:07.209 2016] [ 7689] Child process 7690 has been forked
+[Thu May  5 19:48:07.209 2016] [ 7690] listening on all interfaces, port=3563
+[Thu May  5 19:48:07.239 2016] [ 7690] accepting connections
+[Thu May  5 20:37:37.381 2016] [ 7690] rotating indices (seamless=1)
+[Thu May  5 20:37:37.381 2016] [ 7690] caught SIGTERM, shutting down
+[Thu May  5 20:37:38.024 2016] [ 7690] shutdown complete
+[Fri May  6 15:05:26.667 2016] [14267] Child process 14268 has been forked
+[Fri May  6 15:05:26.667 2016] [14268] listening on all interfaces, port=3563
+[Fri May  6 15:05:26.670 2016] [14268] binlog: replaying log /home/devsinc/projects/sharetribe/tmp/binlog/development/binlog.001
+[Fri May  6 15:05:26.670 2016] [14268] binlog: replay stats: 0 rows in 0 commits; 0 updates; 0 indexes
+[Fri May  6 15:05:26.670 2016] [14268] binlog: finished replaying /home/devsinc/projects/sharetribe/tmp/binlog/development/binlog.001; 0.0 MB in 0.000 sec
+[Fri May  6 15:05:26.670 2016] [14268] binlog: finished replaying total 1 in 0.000 sec
+[Fri May  6 15:05:26.670 2016] [14268] accepting connections
+[Fri May  6 15:54:10.772 2016] [14268] rotating indices (seamless=1)
+[Fri May  6 15:54:10.814 2016] [14268] rotating index 'listing_delta': started
+[Fri May  6 15:54:10.815 2016] [14268] rotating index 'listing_delta': success
+[Fri May  6 15:54:10.815 2016] [14268] rotating index: all indexes done
+[Fri May  6 15:58:42.354 2016] [14268] rotating indices (seamless=1)
+[Fri May  6 15:58:42.393 2016] [14268] rotating index 'listing_delta': started
+[Fri May  6 15:58:42.394 2016] [14268] rotating index 'listing_delta': success
+[Fri May  6 15:58:42.394 2016] [14268] rotating index: all indexes done
