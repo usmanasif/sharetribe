@@ -8,14 +8,14 @@
 # Copy this file from `config/config.example.yml` to `config/config.yml`
 #
 
-development:
+production:
   # Add local `development` environment configuration overrides here
-
+  secret_key_base: 377c96c8ae916926b0be6ff933dc18b28b67aa90d76ff6fcb4cf1e9c9e5508698be95307509e050585d51b3b65bee32cd33ceae7dabdd5ef1d46b6bd1db288c0
 test:
   # Add local `test` environment configuration overrides here
 
 staging:
   # Add local `staging` environment configuration overrides here
 
-production:
+development:
   # Add local `production` environment configuration overrides here

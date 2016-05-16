@@ -19,3 +19,352 @@
 [Fri May  6 15:58:42.393 2016] [14268] rotating index 'listing_delta': started
 [Fri May  6 15:58:42.394 2016] [14268] rotating index 'listing_delta': success
 [Fri May  6 15:58:42.394 2016] [14268] rotating index: all indexes done
+[Fri May  6 13:24:49.410 2016] [25149] Child process 25150 has been forked
+[Fri May  6 13:24:49.410 2016] [25150] listening on all interfaces, port=3563
+[Fri May  6 13:24:49.411 2016] [25150] binlog: replaying log /root/sharetriberepo/tmp/binlog/development/binlog.001
+[Fri May  6 13:24:49.411 2016] [25150] binlog: replay stats: 0 rows in 0 commits; 0 updates; 0 indexes
+[Fri May  6 13:24:49.411 2016] [25150] binlog: finished replaying /root/sharetriberepo/tmp/binlog/development/binlog.001; 0.0 MB in 0.000 sec
+[Fri May  6 13:24:49.411 2016] [25150] binlog: replaying log /root/sharetriberepo/tmp/binlog/development/binlog.001
+[Fri May  6 13:24:49.411 2016] [25150] binlog: replay stats: 0 rows in 0 commits; 0 updates; 0 indexes
+[Fri May  6 13:24:49.411 2016] [25150] binlog: finished replaying /root/sharetriberepo/tmp/binlog/development/binlog.001; 0.0 MB in 0.000 sec
+[Fri May  6 13:24:49.411 2016] [25150] binlog: finished replaying total 2 in 0.000 sec
+[Fri May  6 13:24:49.412 2016] [25150] accepting connections
+[Fri May  6 14:19:33.201 2016] [25150] rotating indices (seamless=1)
+[Fri May  6 14:19:33.219 2016] [25150] rotating index 'listing_delta': started
+[Fri May  6 14:19:33.221 2016] [25150] rotating index 'listing_delta': success
+[Fri May  6 14:19:33.221 2016] [25150] rotating index 'listing_core': started
+[Fri May  6 14:19:33.222 2016] [25150] rotating index 'listing_core': success
+[Fri May  6 14:19:33.222 2016] [25150] rotating index 'custom_field_value_delta': started
+[Fri May  6 14:19:33.222 2016] [25150] rotating index 'custom_field_value_delta': success
+[Fri May  6 14:19:33.222 2016] [25150] rotating index 'custom_field_value_core': started
+[Fri May  6 14:19:33.223 2016] [25150] rotating index 'custom_field_value_core': success
+[Fri May  6 14:19:33.223 2016] [25150] rotating index: all indexes done
+[Tue May 10 12:24:38.371 2016] [25150] rotating indices (seamless=1)
+[Tue May 10 12:24:38.391 2016] [25150] rotating index 'listing_delta': started
+[Tue May 10 12:24:38.392 2016] [25150] rotating index 'listing_delta': success
+[Tue May 10 12:24:38.392 2016] [25150] rotating index 'listing_core': started
+[Tue May 10 12:24:38.392 2016] [25150] rotating index 'listing_core': success
+[Tue May 10 12:24:38.392 2016] [25150] rotating index 'custom_field_value_delta': started
+[Tue May 10 12:24:38.393 2016] [25150] rotating index 'custom_field_value_delta': success
+[Tue May 10 12:24:38.393 2016] [25150] rotating index 'custom_field_value_core': started
+[Tue May 10 12:24:38.393 2016] [25150] rotating index 'custom_field_value_core': success
+[Tue May 10 12:24:38.393 2016] [25150] rotating index: all indexes done
+[Tue May 10 12:27:07.827 2016] [25150] caught SIGTERM, shutting down
+[Tue May 10 12:27:07.999 2016] [25150] shutdown complete
+[Tue May 10 12:27:21.453 2016] [30825] Child process 30826 has been forked
+[Tue May 10 12:27:21.454 2016] [30826] listening on all interfaces, port=3563
+[Tue May 10 12:27:21.456 2016] [30826] binlog: replaying log /root/sharetriberepo/tmp/binlog/development/binlog.001
+[Tue May 10 12:27:21.456 2016] [30826] binlog: replay stats: 0 rows in 0 commits; 0 updates; 0 indexes
+[Tue May 10 12:27:21.456 2016] [30826] binlog: finished replaying /root/sharetriberepo/tmp/binlog/development/binlog.001; 0.0 MB in 0.000 sec
+[Tue May 10 12:27:21.456 2016] [30826] binlog: replaying log /root/sharetriberepo/tmp/binlog/development/binlog.001
+[Tue May 10 12:27:21.456 2016] [30826] binlog: replay stats: 0 rows in 0 commits; 0 updates; 0 indexes
+[Tue May 10 12:27:21.456 2016] [30826] binlog: finished replaying /root/sharetriberepo/tmp/binlog/development/binlog.001; 0.0 MB in 0.000 sec
+[Tue May 10 12:27:21.456 2016] [30826] binlog: replaying log /root/sharetriberepo/tmp/binlog/development/binlog.002
+[Tue May 10 12:27:21.456 2016] [30826] binlog: replay stats: 0 rows in 0 commits; 0 updates; 0 indexes
+[Tue May 10 12:27:21.456 2016] [30826] binlog: finished replaying /root/sharetriberepo/tmp/binlog/development/binlog.002; 0.0 MB in 0.000 sec
+[Tue May 10 12:27:21.456 2016] [30826] binlog: finished replaying total 3 in 0.000 sec
+[Tue May 10 12:27:21.456 2016] [30826] accepting connections
+[Tue May 10 12:47:22.987 2016] [30826] rotating indices (seamless=1)
+[Tue May 10 12:47:23.023 2016] [30826] rotating index 'listing_delta': started
+[Tue May 10 12:47:23.024 2016] [30826] rotating index 'listing_delta': success
+[Tue May 10 12:47:23.025 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:28:14.242 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:28:14.271 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:28:14.273 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:28:14.274 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:28:19.840 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:28:19.883 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:28:19.884 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:28:19.884 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:28:22.013 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:28:22.038 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:28:22.038 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:28:22.039 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:28:22.917 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:28:22.940 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:28:22.941 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:28:22.941 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:28:23.946 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:28:23.993 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:28:23.994 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:28:23.994 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:28:31.343 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:28:31.356 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:28:31.357 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:28:31.357 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:28:41.270 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:28:41.277 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:28:41.277 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:28:41.278 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:28:43.081 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:28:43.131 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:28:43.131 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:28:43.132 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:29:00.758 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:29:00.771 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:29:00.772 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:29:00.772 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:29:22.968 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:29:22.975 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:29:22.976 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:29:22.976 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:33:21.819 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:33:21.828 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:33:21.829 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:33:21.829 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:33:22.831 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:33:22.880 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:33:22.881 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:33:22.881 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:33:23.776 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:33:23.787 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:33:23.787 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:33:23.787 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:33:24.729 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:33:24.739 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:33:24.739 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:33:24.739 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:33:25.787 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:33:25.794 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:33:25.794 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:33:25.794 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:39:08.935 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:39:08.950 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:39:08.951 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:39:08.951 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:39:10.195 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:39:10.203 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:39:10.204 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:39:10.204 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:39:11.597 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:39:11.607 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:39:11.607 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:39:11.607 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:39:12.888 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:39:12.909 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:39:12.910 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:39:12.910 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:41:52.900 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:41:52.942 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:41:52.943 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:41:52.943 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:43:51.293 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:43:51.331 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:43:51.332 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:43:51.332 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:43:52.762 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:43:52.786 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:43:52.786 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:43:52.786 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:43:54.293 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:43:54.294 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:43:54.295 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:43:54.295 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:43:55.665 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:43:55.697 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:43:55.698 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:43:55.698 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:43:56.976 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:43:57.001 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:43:57.002 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:43:57.002 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:47:13.360 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:47:13.401 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:47:13.402 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:47:13.402 2016] [30826] rotating index: all indexes done
+[Wed May 11 06:53:06.416 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 06:53:06.449 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 06:53:06.450 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 06:53:06.450 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:33:06.198 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:33:06.247 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:33:06.248 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:33:06.248 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:33:07.581 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:33:07.600 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:33:07.601 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:33:07.601 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:34:59.118 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:34:59.163 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:34:59.163 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:34:59.163 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:35:43.637 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:35:43.667 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:35:43.668 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:35:43.668 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:36:17.894 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:36:17.901 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:36:17.901 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:36:17.902 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:36:18.030 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:36:18.052 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:36:18.053 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:36:18.053 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:36:19.598 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:36:19.606 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:36:19.607 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:36:19.607 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:36:21.122 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:36:21.159 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:36:21.159 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:36:21.159 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:36:22.717 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:36:22.766 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:36:22.767 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:36:22.767 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:37:29.953 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:37:29.980 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:37:29.981 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:37:29.981 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:38:14.400 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:38:14.425 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:38:14.426 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:38:14.426 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:38:37.928 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:38:37.935 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:38:37.936 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:38:37.936 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:38:43.739 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:38:43.749 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:38:43.750 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:38:43.750 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:39:06.301 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:39:06.303 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:39:06.304 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:39:06.304 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:39:07.794 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:39:07.807 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:39:07.807 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:39:07.807 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:39:09.154 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:39:09.159 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:39:09.160 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:39:09.160 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:39:10.521 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:39:10.563 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:39:10.563 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:39:10.563 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:39:16.310 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:39:16.326 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:39:16.327 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:39:16.327 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:39:22.017 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:39:22.042 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:39:22.043 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:39:22.043 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:39:45.518 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:39:45.556 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:39:45.557 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:39:45.557 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:40:02.723 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:40:02.749 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:40:02.750 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:40:02.750 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:40:04.178 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:40:04.202 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:40:04.203 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:40:04.203 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:42:46.129 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:42:46.148 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:42:46.149 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:42:46.149 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:44:08.935 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:44:08.957 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:44:08.958 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:44:08.958 2016] [30826] rotating index: all indexes done
+[Wed May 11 07:46:23.020 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 07:46:23.045 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 07:46:23.046 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 07:46:23.046 2016] [30826] rotating index: all indexes done
+[Wed May 11 08:52:11.811 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 08:52:11.836 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 08:52:11.838 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 08:52:11.838 2016] [30826] rotating index: all indexes done
+[Wed May 11 08:56:46.825 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 08:56:46.872 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 08:56:46.873 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 08:56:46.873 2016] [30826] rotating index: all indexes done
+[Wed May 11 09:00:09.461 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 09:00:09.479 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 09:00:09.480 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 09:00:09.480 2016] [30826] rotating index: all indexes done
+[Wed May 11 09:02:56.010 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 09:02:56.033 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 09:02:56.034 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 09:02:56.034 2016] [30826] rotating index: all indexes done
+[Wed May 11 09:07:25.905 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 09:07:25.920 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 09:07:25.920 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 09:07:25.921 2016] [30826] rotating index: all indexes done
+[Wed May 11 09:09:34.828 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 09:09:34.878 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 09:09:34.879 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 09:09:34.879 2016] [30826] rotating index: all indexes done
+[Wed May 11 09:14:05.302 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 09:14:05.311 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 09:14:05.311 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 09:14:05.312 2016] [30826] rotating index: all indexes done
+[Wed May 11 09:29:55.247 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 09:29:55.279 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 09:29:55.279 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 09:29:55.279 2016] [30826] rotating index: all indexes done
+[Wed May 11 09:32:35.347 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 09:32:35.377 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 09:32:35.378 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 09:32:35.378 2016] [30826] rotating index: all indexes done
+[Wed May 11 09:33:49.064 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 09:33:49.105 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 09:33:49.106 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 09:33:49.106 2016] [30826] rotating index: all indexes done
+[Wed May 11 09:35:40.640 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 09:35:40.646 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 09:35:40.646 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 09:35:40.646 2016] [30826] rotating index: all indexes done
+[Wed May 11 09:37:12.148 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 09:37:12.178 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 09:37:12.179 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 09:37:12.179 2016] [30826] rotating index: all indexes done
+[Wed May 11 09:42:00.180 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 09:42:00.201 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 09:42:00.202 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 09:42:00.202 2016] [30826] rotating index: all indexes done
+[Wed May 11 09:44:49.375 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 09:44:49.381 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 09:44:49.381 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 09:44:49.381 2016] [30826] rotating index: all indexes done
+[Wed May 11 09:46:08.428 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 09:46:08.433 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 09:46:08.434 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 09:46:08.434 2016] [30826] rotating index: all indexes done
+[Wed May 11 09:47:27.904 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 09:47:27.930 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 09:47:27.931 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 09:47:27.931 2016] [30826] rotating index: all indexes done
+[Wed May 11 09:48:31.451 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 09:48:31.492 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 09:48:31.493 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 09:48:31.493 2016] [30826] rotating index: all indexes done
+[Wed May 11 09:57:12.181 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 09:57:12.203 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 09:57:12.204 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 09:57:12.204 2016] [30826] rotating index: all indexes done
+[Wed May 11 11:39:44.667 2016] [30826] rotating indices (seamless=1)
+[Wed May 11 11:39:44.704 2016] [30826] rotating index 'listing_delta': started
+[Wed May 11 11:39:44.705 2016] [30826] rotating index 'listing_delta': success
+[Wed May 11 11:39:44.705 2016] [30826] rotating index: all indexes done
+[Thu May 12 06:17:11.381 2016] [30826] rotating indices (seamless=1)
+[Thu May 12 06:17:11.425 2016] [30826] rotating index 'listing_delta': started
+[Thu May 12 06:17:11.427 2016] [30826] rotating index 'listing_delta': success
+[Thu May 12 06:17:11.427 2016] [30826] rotating index: all indexes done
+[Thu May 12 06:17:11.478 2016] [30826] rotating indices (seamless=1)
+[Thu May 12 06:17:11.527 2016] [30826] rotating index 'custom_field_value_delta': started
+[Thu May 12 06:17:11.528 2016] [30826] rotating index 'custom_field_value_delta': success
+[Thu May 12 06:17:11.528 2016] [30826] rotating index: all indexes done
+[Thu May 12 06:19:46.739 2016] [30826] rotating indices (seamless=1)
+[Thu May 12 06:19:46.744 2016] [30826] rotating index 'listing_delta': started
+[Thu May 12 06:19:46.745 2016] [30826] rotating index 'listing_delta': success
+[Thu May 12 06:19:46.745 2016] [30826] rotating index: all indexes done
+[Thu May 12 06:19:46.862 2016] [30826] rotating indices (seamless=1)
+[Thu May 12 06:19:46.895 2016] [30826] rotating index 'custom_field_value_delta': started
+[Thu May 12 06:19:46.896 2016] [30826] rotating index 'custom_field_value_delta': success
+[Thu May 12 06:19:46.896 2016] [30826] rotating index: all indexes done

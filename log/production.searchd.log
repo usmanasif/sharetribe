@@ -1,0 +1,53 @@
+[Mon May  9 07:56:45.175 2016] [ 6979] Child process 6980 has been forked
+[Mon May  9 07:56:45.175 2016] [ 6980] listening on all interfaces, port=3564
+[Mon May  9 07:56:45.178 2016] [ 6980] accepting connections
+[Mon May  9 09:08:52.757 2016] [ 6980] rotating indices (seamless=1)
+[Mon May  9 09:08:52.777 2016] [ 6980] rotating index 'listing_delta': started
+[Mon May  9 09:08:52.777 2016] [ 6980] rotating index 'listing_delta': success
+[Mon May  9 09:08:52.777 2016] [ 6980] rotating index 'listing_core': started
+[Mon May  9 09:08:52.778 2016] [ 6980] rotating index 'listing_core': success
+[Mon May  9 09:08:52.778 2016] [ 6980] rotating index 'custom_field_value_delta': started
+[Mon May  9 09:08:52.779 2016] [ 6980] rotating index 'custom_field_value_delta': success
+[Mon May  9 09:08:52.779 2016] [ 6980] rotating index 'custom_field_value_core': started
+[Mon May  9 09:08:52.780 2016] [ 6980] rotating index 'custom_field_value_core': success
+[Mon May  9 09:08:52.780 2016] [ 6980] rotating index: all indexes done
+[Mon May  9 09:19:25.934 2016] [ 6980] rotating indices (seamless=1)
+[Mon May  9 09:19:25.971 2016] [ 6980] rotating index 'listing_delta': started
+[Mon May  9 09:19:25.972 2016] [ 6980] rotating index 'listing_delta': success
+[Mon May  9 09:19:25.972 2016] [ 6980] rotating index 'listing_core': started
+[Mon May  9 09:19:25.972 2016] [ 6980] rotating index 'listing_core': success
+[Mon May  9 09:19:25.972 2016] [ 6980] rotating index 'custom_field_value_delta': started
+[Mon May  9 09:19:25.973 2016] [ 6980] rotating index 'custom_field_value_delta': success
+[Mon May  9 09:19:25.973 2016] [ 6980] rotating index 'custom_field_value_core': started
+[Mon May  9 09:19:25.973 2016] [ 6980] rotating index 'custom_field_value_core': success
+[Mon May  9 09:19:25.973 2016] [ 6980] rotating index: all indexes done
+[Mon May  9 13:57:09.979 2016] [ 6980] rotating indices (seamless=1)
+[Mon May  9 13:57:10.003 2016] [ 6980] rotating index 'listing_delta': started
+[Mon May  9 13:57:10.004 2016] [ 6980] rotating index 'listing_delta': success
+[Mon May  9 13:57:10.004 2016] [ 6980] rotating index: all indexes done
+[Mon May  9 13:57:35.436 2016] [ 6980] rotating indices (seamless=1)
+[Mon May  9 13:57:35.465 2016] [ 6980] rotating index 'listing_delta': started
+[Mon May  9 13:57:35.466 2016] [ 6980] rotating index 'listing_delta': success
+[Mon May  9 13:57:35.466 2016] [ 6980] rotating index: all indexes done
+[Mon May  9 13:59:00.560 2016] [ 6980] rotating indices (seamless=1)
+[Mon May  9 13:59:00.564 2016] [ 6980] rotating index 'listing_delta': started
+[Mon May  9 13:59:00.564 2016] [ 6980] rotating index 'listing_delta': success
+[Mon May  9 13:59:00.564 2016] [ 6980] rotating index: all indexes done
+[Mon May  9 14:12:25.287 2016] [ 6980] rotating indices (seamless=1)
+[Mon May  9 14:12:25.307 2016] [ 6980] rotating index 'listing_delta': started
+[Mon May  9 14:12:25.307 2016] [ 6980] rotating index 'listing_delta': success
+[Mon May  9 14:12:25.308 2016] [ 6980] rotating index: all indexes done
+[Mon May  9 14:14:50.734 2016] [ 6980] rotating indices (seamless=1)
+[Mon May  9 14:14:50.755 2016] [ 6980] rotating index 'listing_delta': started
+[Mon May  9 14:14:50.756 2016] [ 6980] rotating index 'listing_delta': success
+[Mon May  9 14:14:50.756 2016] [ 6980] rotating index: all indexes done
+[Mon May  9 14:16:00.883 2016] [ 6980] rotating indices (seamless=1)
+[Mon May  9 14:16:00.885 2016] [ 6980] rotating index 'listing_delta': started
+[Mon May  9 14:16:00.887 2016] [ 6980] rotating index 'listing_delta': success
+[Mon May  9 14:16:00.887 2016] [ 6980] rotating index: all indexes done
+[Mon May  9 14:16:56.027 2016] [ 6980] rotating indices (seamless=1)
+[Mon May  9 14:16:56.035 2016] [ 6980] rotating index 'listing_delta': started
+[Mon May  9 14:16:56.036 2016] [ 6980] rotating index 'listing_delta': success
+[Mon May  9 14:16:56.036 2016] [ 6980] rotating index: all indexes done
+[Tue May 10 12:26:29.659 2016] [ 6980] caught SIGTERM, shutting down
+[Tue May 10 12:26:29.743 2016] [ 6980] shutdown complete

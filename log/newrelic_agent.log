@@ -1,0 +1,1285 @@
+# Logfile created on 2016-05-09 07:56:28 +0000 by logger.rb/47272
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 07:56:28 +0000 ubuntu (6950)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : Environment: production
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : No known dispatcher detected.
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : Application: Sharetribe
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : Installing deferred Rack instrumentation
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : Installing Net instrumentation
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : Finished instrumentation
+[05/09/16 07:56:28 +0000 ubuntu (6950)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 07:56:29 +0000 ubuntu (6950)] INFO : Starting Agent shutdown
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 07:56:44 +0000 ubuntu (6966)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : Environment: production
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : No known dispatcher detected.
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : Application: Sharetribe
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : Installing deferred Rack instrumentation
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : Installing Net instrumentation
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : Finished instrumentation
+[05/09/16 07:56:44 +0000 ubuntu (6966)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 07:56:46 +0000 ubuntu (6966)] INFO : Starting Agent shutdown
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 08:16:38 +0000 ubuntu (8051)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Installing deferred Rack instrumentation
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Installing Net instrumentation
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Finished instrumentation
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Installing DelayedJob instrumentation [part 2/2]
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Environment: production
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Dispatcher: delayed_job
+[05/09/16 08:16:38 +0000 ubuntu (8051)] INFO : Application: Sharetribe
+[05/09/16 08:16:43 +0000 ubuntu (8051)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 08:17:43 +0000 ubuntu (8051)] WARN : Removing #<NewRelic::Agent::Samplers::DelayedJobSampler:0x00000008085838> from list
+[05/09/16 08:17:43 +0000 ubuntu (8051)] WARN : NoMethodError: undefined method `each' for 0:Fixnum
+[05/09/16 08:17:56 +0000 ubuntu (8220)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 08:17:56 +0000 ubuntu (8220)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 08:17:56 +0000 ubuntu (8220)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 08:17:56 +0000 ubuntu (8220)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 08:17:56 +0000 ubuntu (8220)] INFO : Environment: production
+[05/09/16 08:17:56 +0000 ubuntu (8220)] INFO : Dispatcher: webrick
+[05/09/16 08:17:56 +0000 ubuntu (8220)] INFO : Application: Sharetribe
+[05/09/16 08:17:56 +0000 ubuntu (8220)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 08:17:56 +0000 ubuntu (8220)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 08:17:56 +0000 ubuntu (8220)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 08:17:56 +0000 ubuntu (8220)] INFO : Installing deferred Rack instrumentation
+[05/09/16 08:17:56 +0000 ubuntu (8220)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 08:17:56 +0000 ubuntu (8220)] INFO : Installing Net instrumentation
+[05/09/16 08:17:56 +0000 ubuntu (8220)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 08:17:56 +0000 ubuntu (8220)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 08:17:56 +0000 ubuntu (8220)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 08:17:56 +0000 ubuntu (8220)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 08:17:56 +0000 ubuntu (8220)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 08:17:56 +0000 ubuntu (8220)] INFO : Finished instrumentation
+[05/09/16 08:17:57 +0000 ubuntu (8220)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 08:17:59 +0000 ubuntu (8220)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 08:18:29 +0000 ubuntu (8220)] INFO : Starting Agent shutdown
+[05/09/16 08:18:47 +0000 ubuntu (8234)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 08:18:47 +0000 ubuntu (8234)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 08:18:47 +0000 ubuntu (8234)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 08:18:47 +0000 ubuntu (8234)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 08:18:47 +0000 ubuntu (8234)] INFO : Environment: production
+[05/09/16 08:18:47 +0000 ubuntu (8234)] INFO : Dispatcher: webrick
+[05/09/16 08:18:47 +0000 ubuntu (8234)] INFO : Application: Sharetribe
+[05/09/16 08:18:47 +0000 ubuntu (8234)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 08:18:47 +0000 ubuntu (8234)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 08:18:47 +0000 ubuntu (8234)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 08:18:47 +0000 ubuntu (8234)] INFO : Installing deferred Rack instrumentation
+[05/09/16 08:18:47 +0000 ubuntu (8234)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 08:18:47 +0000 ubuntu (8234)] INFO : Installing Net instrumentation
+[05/09/16 08:18:47 +0000 ubuntu (8234)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 08:18:47 +0000 ubuntu (8234)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 08:18:47 +0000 ubuntu (8234)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 08:18:47 +0000 ubuntu (8234)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 08:18:47 +0000 ubuntu (8234)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 08:18:47 +0000 ubuntu (8234)] INFO : Finished instrumentation
+[05/09/16 08:18:48 +0000 ubuntu (8234)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 08:18:50 +0000 ubuntu (8234)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 08:19:01 +0000 ubuntu (8234)] INFO : Starting Agent shutdown
+[05/09/16 08:29:44 +0000 ubuntu (8360)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 08:29:44 +0000 ubuntu (8360)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 08:29:44 +0000 ubuntu (8360)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 08:29:44 +0000 ubuntu (8360)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 08:29:44 +0000 ubuntu (8360)] INFO : Environment: production
+[05/09/16 08:29:44 +0000 ubuntu (8360)] INFO : Dispatcher: webrick
+[05/09/16 08:29:44 +0000 ubuntu (8360)] INFO : Application: Sharetribe
+[05/09/16 08:29:44 +0000 ubuntu (8360)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 08:29:45 +0000 ubuntu (8360)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 08:29:45 +0000 ubuntu (8360)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 08:29:45 +0000 ubuntu (8360)] INFO : Installing deferred Rack instrumentation
+[05/09/16 08:29:45 +0000 ubuntu (8360)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 08:29:45 +0000 ubuntu (8360)] INFO : Installing Net instrumentation
+[05/09/16 08:29:45 +0000 ubuntu (8360)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 08:29:45 +0000 ubuntu (8360)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 08:29:45 +0000 ubuntu (8360)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 08:29:45 +0000 ubuntu (8360)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 08:29:45 +0000 ubuntu (8360)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 08:29:45 +0000 ubuntu (8360)] INFO : Finished instrumentation
+[05/09/16 08:29:45 +0000 ubuntu (8360)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 08:29:47 +0000 ubuntu (8360)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 08:29:59 +0000 ubuntu (8360)] INFO : Starting Agent shutdown
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 08:30:20 +0000 ubuntu (8376)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : Environment: production
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : Dispatcher: webrick
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : Application: Sharetribe
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : Installing deferred Rack instrumentation
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : Installing Net instrumentation
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : Finished instrumentation
+[05/09/16 08:30:20 +0000 ubuntu (8376)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 08:30:23 +0000 ubuntu (8376)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 08:31:24 +0000 ubuntu (8376)] INFO : Starting Agent shutdown
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 08:33:19 +0000 ubuntu (8417)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : Environment: production
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : Dispatcher: webrick
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : Application: Sharetribe
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : Installing deferred Rack instrumentation
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : Installing Net instrumentation
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : Finished instrumentation
+[05/09/16 08:33:19 +0000 ubuntu (8417)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 08:33:21 +0000 ubuntu (8417)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 08:50:50 +0000 ubuntu (8417)] INFO : Starting Agent shutdown
+[05/09/16 08:56:51 +0000 ubuntu (8946)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 08:56:51 +0000 ubuntu (8946)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 08:56:51 +0000 ubuntu (8946)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 08:56:51 +0000 ubuntu (8946)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 08:56:51 +0000 ubuntu (8946)] INFO : Environment: production
+[05/09/16 08:56:51 +0000 ubuntu (8946)] INFO : Dispatcher: webrick
+[05/09/16 08:56:51 +0000 ubuntu (8946)] INFO : Application: Sharetribe
+[05/09/16 08:56:51 +0000 ubuntu (8946)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 08:56:51 +0000 ubuntu (8946)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 08:56:51 +0000 ubuntu (8946)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 08:56:51 +0000 ubuntu (8946)] INFO : Installing deferred Rack instrumentation
+[05/09/16 08:56:51 +0000 ubuntu (8946)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 08:56:51 +0000 ubuntu (8946)] INFO : Installing Net instrumentation
+[05/09/16 08:56:51 +0000 ubuntu (8946)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 08:56:51 +0000 ubuntu (8946)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 08:56:51 +0000 ubuntu (8946)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 08:56:51 +0000 ubuntu (8946)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 08:56:51 +0000 ubuntu (8946)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 08:56:51 +0000 ubuntu (8946)] INFO : Finished instrumentation
+[05/09/16 08:56:52 +0000 ubuntu (8946)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 08:56:54 +0000 ubuntu (8946)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 08:59:40 +0000 ubuntu (8946)] INFO : Starting Agent shutdown
+[05/09/16 09:01:30 +0000 ubuntu (8999)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 09:01:30 +0000 ubuntu (8999)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 09:01:30 +0000 ubuntu (8999)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 09:01:30 +0000 ubuntu (8999)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 09:01:30 +0000 ubuntu (8999)] INFO : Environment: production
+[05/09/16 09:01:30 +0000 ubuntu (8999)] INFO : Dispatcher: webrick
+[05/09/16 09:01:30 +0000 ubuntu (8999)] INFO : Application: Sharetribe
+[05/09/16 09:01:30 +0000 ubuntu (8999)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 09:01:30 +0000 ubuntu (8999)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 09:01:30 +0000 ubuntu (8999)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 09:01:30 +0000 ubuntu (8999)] INFO : Installing deferred Rack instrumentation
+[05/09/16 09:01:30 +0000 ubuntu (8999)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 09:01:30 +0000 ubuntu (8999)] INFO : Installing Net instrumentation
+[05/09/16 09:01:30 +0000 ubuntu (8999)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 09:01:30 +0000 ubuntu (8999)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 09:01:30 +0000 ubuntu (8999)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 09:01:30 +0000 ubuntu (8999)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 09:01:30 +0000 ubuntu (8999)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 09:01:30 +0000 ubuntu (8999)] INFO : Finished instrumentation
+[05/09/16 09:01:31 +0000 ubuntu (8999)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 09:01:33 +0000 ubuntu (8999)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 09:04:01 +0000 ubuntu (8999)] INFO : Starting Agent shutdown
+[05/09/16 09:08:05 +0000 ubuntu (8051)] INFO : Starting Agent shutdown
+[05/09/16 09:08:51 +0000 ubuntu (9221)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 09:08:51 +0000 ubuntu (9221)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 09:08:51 +0000 ubuntu (9221)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 09:08:51 +0000 ubuntu (9221)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 09:08:51 +0000 ubuntu (9221)] INFO : Environment: production
+[05/09/16 09:08:51 +0000 ubuntu (9221)] INFO : No known dispatcher detected.
+[05/09/16 09:08:51 +0000 ubuntu (9221)] INFO : Application: Sharetribe
+[05/09/16 09:08:51 +0000 ubuntu (9221)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 09:08:51 +0000 ubuntu (9221)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 09:08:51 +0000 ubuntu (9221)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 09:08:51 +0000 ubuntu (9221)] INFO : Installing deferred Rack instrumentation
+[05/09/16 09:08:51 +0000 ubuntu (9221)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 09:08:51 +0000 ubuntu (9221)] INFO : Installing Net instrumentation
+[05/09/16 09:08:51 +0000 ubuntu (9221)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 09:08:51 +0000 ubuntu (9221)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 09:08:51 +0000 ubuntu (9221)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 09:08:51 +0000 ubuntu (9221)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 09:08:51 +0000 ubuntu (9221)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 09:08:51 +0000 ubuntu (9221)] INFO : Finished instrumentation
+[05/09/16 09:08:52 +0000 ubuntu (9221)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 09:08:52 +0000 ubuntu (9221)] INFO : Starting Agent shutdown
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 09:09:09 +0000 ubuntu (9237)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : Environment: production
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : No known dispatcher detected.
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : Application: Sharetribe
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : Installing deferred Rack instrumentation
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : Installing Net instrumentation
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : Finished instrumentation
+[05/09/16 09:09:09 +0000 ubuntu (9237)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 09:09:10 +0000 ubuntu (9237)] INFO : Starting Agent shutdown
+[05/09/16 09:16:35 +0000 ubuntu (9717)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 09:16:35 +0000 ubuntu (9717)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 09:16:35 +0000 ubuntu (9717)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 09:16:35 +0000 ubuntu (9717)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 09:16:35 +0000 ubuntu (9717)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 09:16:35 +0000 ubuntu (9717)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 09:16:35 +0000 ubuntu (9717)] INFO : Installing deferred Rack instrumentation
+[05/09/16 09:16:35 +0000 ubuntu (9717)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 09:16:35 +0000 ubuntu (9717)] INFO : Installing Net instrumentation
+[05/09/16 09:16:35 +0000 ubuntu (9717)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 09:16:35 +0000 ubuntu (9717)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 09:16:35 +0000 ubuntu (9717)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 09:16:35 +0000 ubuntu (9717)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 09:16:35 +0000 ubuntu (9717)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 09:16:35 +0000 ubuntu (9717)] INFO : Finished instrumentation
+[05/09/16 09:16:36 +0000 ubuntu (9717)] INFO : Installing DelayedJob instrumentation [part 2/2]
+[05/09/16 09:16:36 +0000 ubuntu (9717)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 09:16:36 +0000 ubuntu (9717)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 09:16:36 +0000 ubuntu (9717)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 09:16:36 +0000 ubuntu (9717)] INFO : Environment: production
+[05/09/16 09:16:36 +0000 ubuntu (9717)] INFO : Dispatcher: delayed_job
+[05/09/16 09:16:36 +0000 ubuntu (9717)] INFO : Application: Sharetribe
+[05/09/16 09:16:41 +0000 ubuntu (9717)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 09:17:41 +0000 ubuntu (9717)] WARN : Removing #<NewRelic::Agent::Samplers::DelayedJobSampler:0x000000061c9200> from list
+[05/09/16 09:17:41 +0000 ubuntu (9717)] WARN : NoMethodError: undefined method `each' for 0:Fixnum
+[05/09/16 09:17:46 +0000 ubuntu (9882)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 09:17:46 +0000 ubuntu (9882)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 09:17:46 +0000 ubuntu (9882)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 09:17:46 +0000 ubuntu (9882)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 09:17:46 +0000 ubuntu (9882)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 09:17:46 +0000 ubuntu (9882)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 09:17:46 +0000 ubuntu (9882)] INFO : Installing deferred Rack instrumentation
+[05/09/16 09:17:46 +0000 ubuntu (9882)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 09:17:46 +0000 ubuntu (9882)] INFO : Installing Net instrumentation
+[05/09/16 09:17:46 +0000 ubuntu (9882)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 09:17:46 +0000 ubuntu (9882)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 09:17:46 +0000 ubuntu (9882)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 09:17:46 +0000 ubuntu (9882)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 09:17:46 +0000 ubuntu (9882)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 09:17:46 +0000 ubuntu (9882)] INFO : Finished instrumentation
+[05/09/16 09:17:47 +0000 ubuntu (9882)] INFO : Installing DelayedJob instrumentation [part 2/2]
+[05/09/16 09:17:47 +0000 ubuntu (9882)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 09:17:47 +0000 ubuntu (9882)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 09:17:47 +0000 ubuntu (9882)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 09:17:47 +0000 ubuntu (9882)] INFO : Environment: production
+[05/09/16 09:17:47 +0000 ubuntu (9882)] INFO : Dispatcher: delayed_job
+[05/09/16 09:17:47 +0000 ubuntu (9882)] INFO : Application: Sharetribe
+[05/09/16 09:17:51 +0000 ubuntu (9882)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 09:18:11 +0000 ubuntu (9882)] INFO : Installing DelayedJob instrumentation [part 2/2]
+[05/09/16 09:18:11 +0000 ubuntu (9882)] WARN : Transaction tracer already in place for class = Delayed::Backend::ActiveRecord::Job, method = invoke_job, skipping
+[05/09/16 09:18:11 +0000 ubuntu (9882)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 09:18:11 +0000 ubuntu (9882)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 09:18:11 +0000 ubuntu (9882)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 09:18:16 +0000 ubuntu (9882)] INFO : Starting Agent shutdown
+[05/09/16 09:18:16 +0000 ubuntu (9882)] WARN : Removing #<NewRelic::Agent::Samplers::DelayedJobSampler:0x00000005caad50> from list
+[05/09/16 09:18:16 +0000 ubuntu (9882)] WARN : NoMethodError: undefined method `each' for 0:Fixnum
+[05/09/16 09:19:24 +0000 ubuntu (9913)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 09:19:24 +0000 ubuntu (9913)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 09:19:24 +0000 ubuntu (9913)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 09:19:24 +0000 ubuntu (9913)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 09:19:24 +0000 ubuntu (9913)] INFO : Environment: production
+[05/09/16 09:19:24 +0000 ubuntu (9913)] INFO : No known dispatcher detected.
+[05/09/16 09:19:24 +0000 ubuntu (9913)] INFO : Application: Sharetribe
+[05/09/16 09:19:24 +0000 ubuntu (9913)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 09:19:24 +0000 ubuntu (9913)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 09:19:24 +0000 ubuntu (9913)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 09:19:24 +0000 ubuntu (9913)] INFO : Installing deferred Rack instrumentation
+[05/09/16 09:19:24 +0000 ubuntu (9913)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 09:19:24 +0000 ubuntu (9913)] INFO : Installing Net instrumentation
+[05/09/16 09:19:24 +0000 ubuntu (9913)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 09:19:24 +0000 ubuntu (9913)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 09:19:24 +0000 ubuntu (9913)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 09:19:24 +0000 ubuntu (9913)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 09:19:24 +0000 ubuntu (9913)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 09:19:24 +0000 ubuntu (9913)] INFO : Finished instrumentation
+[05/09/16 09:19:25 +0000 ubuntu (9913)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 09:19:25 +0000 ubuntu (9913)] INFO : Starting Agent shutdown
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 09:19:57 +0000 ubuntu (9932)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : Environment: production
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : Dispatcher: webrick
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : Application: Sharetribe
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : Installing deferred Rack instrumentation
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : Installing Net instrumentation
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : Finished instrumentation
+[05/09/16 09:19:57 +0000 ubuntu (9932)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 09:19:59 +0000 ubuntu (9932)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 09:28:57 +0000 ubuntu (9932)] INFO : Starting Agent shutdown
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 09:29:05 +0000 ubuntu (10200)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : Environment: production
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : Dispatcher: webrick
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : Application: Sharetribe
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : Installing deferred Rack instrumentation
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : Installing Net instrumentation
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : Finished instrumentation
+[05/09/16 09:29:05 +0000 ubuntu (10200)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 09:29:07 +0000 ubuntu (10200)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 10:18:41 +0000 ubuntu (10200)] INFO : Starting Agent shutdown
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 10:18:48 +0000 ubuntu (11046)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : Environment: production
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : Dispatcher: webrick
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : Application: Sharetribe
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : Installing deferred Rack instrumentation
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : Installing Net instrumentation
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : Finished instrumentation
+[05/09/16 10:18:48 +0000 ubuntu (11046)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 10:18:50 +0000 ubuntu (11046)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 10:19:49 +0000 ubuntu (11046)] INFO : Starting Agent shutdown
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 10:21:24 +0000 ubuntu (11077)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : Environment: production
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : Dispatcher: webrick
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : Application: Sharetribe
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : Installing deferred Rack instrumentation
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : Installing Net instrumentation
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : Finished instrumentation
+[05/09/16 10:21:24 +0000 ubuntu (11077)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 10:21:26 +0000 ubuntu (11077)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 10:23:41 +0000 ubuntu (11077)] INFO : Starting Agent shutdown
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 10:24:53 +0000 ubuntu (11138)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : Environment: production
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : Dispatcher: webrick
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : Application: Sharetribe
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : Installing deferred Rack instrumentation
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : Installing Net instrumentation
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : Finished instrumentation
+[05/09/16 10:24:53 +0000 ubuntu (11138)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 10:24:55 +0000 ubuntu (11138)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 10:29:30 +0000 ubuntu (11138)] INFO : Starting Agent shutdown
+[05/09/16 10:31:35 +0000 ubuntu (11253)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 10:31:35 +0000 ubuntu (11253)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 10:31:35 +0000 ubuntu (11253)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 10:31:35 +0000 ubuntu (11253)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 10:31:35 +0000 ubuntu (11253)] INFO : Environment: production
+[05/09/16 10:31:35 +0000 ubuntu (11253)] INFO : Dispatcher: webrick
+[05/09/16 10:31:35 +0000 ubuntu (11253)] INFO : Application: Sharetribe
+[05/09/16 10:31:35 +0000 ubuntu (11253)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 10:31:35 +0000 ubuntu (11253)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 10:31:35 +0000 ubuntu (11253)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 10:31:35 +0000 ubuntu (11253)] INFO : Installing deferred Rack instrumentation
+[05/09/16 10:31:35 +0000 ubuntu (11253)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 10:31:35 +0000 ubuntu (11253)] INFO : Installing Net instrumentation
+[05/09/16 10:31:35 +0000 ubuntu (11253)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 10:31:35 +0000 ubuntu (11253)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 10:31:35 +0000 ubuntu (11253)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 10:31:35 +0000 ubuntu (11253)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 10:31:35 +0000 ubuntu (11253)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 10:31:35 +0000 ubuntu (11253)] INFO : Finished instrumentation
+[05/09/16 10:31:36 +0000 ubuntu (11253)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 10:31:38 +0000 ubuntu (11253)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 10:31:54 +0000 ubuntu (11253)] INFO : Starting Agent shutdown
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 10:32:28 +0000 ubuntu (11288)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : Environment: production
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : Dispatcher: webrick
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : Application: Sharetribe
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : Installing deferred Rack instrumentation
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : Installing Net instrumentation
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : Finished instrumentation
+[05/09/16 10:32:28 +0000 ubuntu (11288)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 10:32:31 +0000 ubuntu (11288)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 11:10:38 +0000 ubuntu (11899)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 11:10:38 +0000 ubuntu (11899)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 11:10:38 +0000 ubuntu (11899)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 11:10:38 +0000 ubuntu (11899)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 11:10:38 +0000 ubuntu (11899)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 11:10:38 +0000 ubuntu (11899)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 11:10:38 +0000 ubuntu (11899)] INFO : Installing deferred Rack instrumentation
+[05/09/16 11:10:38 +0000 ubuntu (11899)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 11:10:38 +0000 ubuntu (11899)] INFO : Installing Net instrumentation
+[05/09/16 11:10:38 +0000 ubuntu (11899)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 11:10:38 +0000 ubuntu (11899)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 11:10:38 +0000 ubuntu (11899)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 11:10:38 +0000 ubuntu (11899)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 11:10:38 +0000 ubuntu (11899)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 11:10:38 +0000 ubuntu (11899)] INFO : Finished instrumentation
+[05/09/16 11:10:39 +0000 ubuntu (11899)] INFO : Installing DelayedJob instrumentation [part 2/2]
+[05/09/16 11:10:39 +0000 ubuntu (11899)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 11:10:39 +0000 ubuntu (11899)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 11:10:39 +0000 ubuntu (11899)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 11:10:39 +0000 ubuntu (11899)] INFO : Environment: production
+[05/09/16 11:10:39 +0000 ubuntu (11899)] INFO : Dispatcher: delayed_job
+[05/09/16 11:10:39 +0000 ubuntu (11899)] INFO : Application: Sharetribe
+[05/09/16 11:10:43 +0000 ubuntu (11899)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 11:11:43 +0000 ubuntu (11899)] WARN : Removing #<NewRelic::Agent::Samplers::DelayedJobSampler:0x000000090982c0> from list
+[05/09/16 11:11:43 +0000 ubuntu (11899)] WARN : NoMethodError: undefined method `each' for 0:Fixnum
+[05/09/16 11:12:04 +0000 ubuntu (11288)] INFO : Starting Agent shutdown
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 11:12:15 +0000 ubuntu (12083)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : Environment: production
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : Dispatcher: webrick
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : Application: Sharetribe
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : Installing deferred Rack instrumentation
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : Installing Net instrumentation
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : Finished instrumentation
+[05/09/16 11:12:15 +0000 ubuntu (12083)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 11:12:17 +0000 ubuntu (12083)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 11:34:48 +0000 ubuntu (12083)] INFO : Starting Agent shutdown
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 11:34:56 +0000 ubuntu (12502)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : Environment: production
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : Dispatcher: webrick
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : Application: Sharetribe
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : Installing deferred Rack instrumentation
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : Installing Net instrumentation
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : Finished instrumentation
+[05/09/16 11:34:56 +0000 ubuntu (12502)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 11:34:58 +0000 ubuntu (12502)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 11:36:28 +0000 ubuntu (9717)] INFO : Starting Agent shutdown
+[05/09/16 11:39:25 +0000 ubuntu (12502)] INFO : Starting Agent shutdown
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 11:39:31 +0000 ubuntu (12557)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : Environment: production
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : Dispatcher: webrick
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : Application: Sharetribe
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : Installing deferred Rack instrumentation
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : Installing Net instrumentation
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : Finished instrumentation
+[05/09/16 11:39:31 +0000 ubuntu (12557)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 11:39:33 +0000 ubuntu (12557)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 11:47:00 +0000 ubuntu (12557)] INFO : Starting Agent shutdown
+[05/09/16 11:47:11 +0000 ubuntu (12790)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 11:47:11 +0000 ubuntu (12790)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 11:47:11 +0000 ubuntu (12790)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 11:47:11 +0000 ubuntu (12790)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 11:47:11 +0000 ubuntu (12790)] INFO : Environment: production
+[05/09/16 11:47:11 +0000 ubuntu (12790)] INFO : Dispatcher: webrick
+[05/09/16 11:47:11 +0000 ubuntu (12790)] INFO : Application: Sharetribe
+[05/09/16 11:47:11 +0000 ubuntu (12790)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 11:47:11 +0000 ubuntu (12790)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 11:47:11 +0000 ubuntu (12790)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 11:47:11 +0000 ubuntu (12790)] INFO : Installing deferred Rack instrumentation
+[05/09/16 11:47:11 +0000 ubuntu (12790)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 11:47:11 +0000 ubuntu (12790)] INFO : Installing Net instrumentation
+[05/09/16 11:47:11 +0000 ubuntu (12790)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 11:47:11 +0000 ubuntu (12790)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 11:47:11 +0000 ubuntu (12790)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 11:47:11 +0000 ubuntu (12790)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 11:47:11 +0000 ubuntu (12790)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 11:47:11 +0000 ubuntu (12790)] INFO : Finished instrumentation
+[05/09/16 11:47:12 +0000 ubuntu (12790)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 11:47:14 +0000 ubuntu (12790)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 11:52:49 +0000 ubuntu (12790)] INFO : Starting Agent shutdown
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 11:52:55 +0000 ubuntu (12849)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : Environment: production
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : Dispatcher: webrick
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : Application: Sharetribe
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : Installing deferred Rack instrumentation
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : Installing Net instrumentation
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : Finished instrumentation
+[05/09/16 11:52:55 +0000 ubuntu (12849)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 11:52:58 +0000 ubuntu (12849)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 11:58:16 +0000 ubuntu (12849)] INFO : Starting Agent shutdown
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 11:58:23 +0000 ubuntu (12908)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : Environment: production
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : Dispatcher: webrick
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : Application: Sharetribe
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : Installing deferred Rack instrumentation
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : Installing Net instrumentation
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : Finished instrumentation
+[05/09/16 11:58:23 +0000 ubuntu (12908)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 11:58:26 +0000 ubuntu (12908)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 12:16:05 +0000 ubuntu (12908)] INFO : Starting Agent shutdown
+[05/09/16 12:21:33 +0000 ubuntu (13439)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 12:21:33 +0000 ubuntu (13439)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 12:21:33 +0000 ubuntu (13439)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 12:21:33 +0000 ubuntu (13439)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 12:21:33 +0000 ubuntu (13439)] INFO : Environment: production
+[05/09/16 12:21:33 +0000 ubuntu (13439)] INFO : No known dispatcher detected.
+[05/09/16 12:21:33 +0000 ubuntu (13439)] INFO : Application: Sharetribe
+[05/09/16 12:21:33 +0000 ubuntu (13439)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 12:21:33 +0000 ubuntu (13439)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 12:21:33 +0000 ubuntu (13439)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 12:21:33 +0000 ubuntu (13439)] INFO : Installing deferred Rack instrumentation
+[05/09/16 12:21:33 +0000 ubuntu (13439)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 12:21:33 +0000 ubuntu (13439)] INFO : Installing Net instrumentation
+[05/09/16 12:21:33 +0000 ubuntu (13439)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 12:21:33 +0000 ubuntu (13439)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 12:21:33 +0000 ubuntu (13439)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 12:21:33 +0000 ubuntu (13439)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 12:21:33 +0000 ubuntu (13439)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 12:21:33 +0000 ubuntu (13439)] INFO : Finished instrumentation
+[05/09/16 12:21:34 +0000 ubuntu (13439)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 12:21:34 +0000 ubuntu (13439)] INFO : Starting Agent shutdown
+[05/09/16 12:22:31 +0000 ubuntu (13457)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 12:22:31 +0000 ubuntu (13457)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 12:22:31 +0000 ubuntu (13457)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 12:22:31 +0000 ubuntu (13457)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 12:22:31 +0000 ubuntu (13457)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 12:22:31 +0000 ubuntu (13457)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 12:22:31 +0000 ubuntu (13457)] INFO : Installing deferred Rack instrumentation
+[05/09/16 12:22:31 +0000 ubuntu (13457)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 12:22:31 +0000 ubuntu (13457)] INFO : Installing Net instrumentation
+[05/09/16 12:22:31 +0000 ubuntu (13457)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 12:22:31 +0000 ubuntu (13457)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 12:22:31 +0000 ubuntu (13457)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 12:22:31 +0000 ubuntu (13457)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 12:22:31 +0000 ubuntu (13457)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 12:22:31 +0000 ubuntu (13457)] INFO : Finished instrumentation
+[05/09/16 12:22:32 +0000 ubuntu (13457)] INFO : Installing DelayedJob instrumentation [part 2/2]
+[05/09/16 12:22:32 +0000 ubuntu (13457)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 12:22:32 +0000 ubuntu (13457)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 12:22:32 +0000 ubuntu (13457)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 12:22:32 +0000 ubuntu (13457)] INFO : Environment: production
+[05/09/16 12:22:32 +0000 ubuntu (13457)] INFO : Dispatcher: delayed_job
+[05/09/16 12:22:32 +0000 ubuntu (13457)] INFO : Application: Sharetribe
+[05/09/16 12:22:36 +0000 ubuntu (13457)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 12:23:36 +0000 ubuntu (13457)] WARN : Removing #<NewRelic::Agent::Samplers::DelayedJobSampler:0x00000007016f38> from list
+[05/09/16 12:23:36 +0000 ubuntu (13457)] WARN : NoMethodError: undefined method `each' for 0:Fixnum
+[05/09/16 12:33:32 +0000 ubuntu (13688)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 12:33:32 +0000 ubuntu (13688)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 12:33:32 +0000 ubuntu (13688)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 12:33:32 +0000 ubuntu (13688)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 12:33:32 +0000 ubuntu (13688)] INFO : Environment: production
+[05/09/16 12:33:32 +0000 ubuntu (13688)] INFO : Dispatcher: webrick
+[05/09/16 12:33:32 +0000 ubuntu (13688)] INFO : Application: Sharetribe
+[05/09/16 12:33:32 +0000 ubuntu (13688)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 12:33:32 +0000 ubuntu (13688)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 12:33:32 +0000 ubuntu (13688)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 12:33:32 +0000 ubuntu (13688)] INFO : Installing deferred Rack instrumentation
+[05/09/16 12:33:32 +0000 ubuntu (13688)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 12:33:32 +0000 ubuntu (13688)] INFO : Installing Net instrumentation
+[05/09/16 12:33:32 +0000 ubuntu (13688)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 12:33:32 +0000 ubuntu (13688)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 12:33:32 +0000 ubuntu (13688)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 12:33:32 +0000 ubuntu (13688)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 12:33:32 +0000 ubuntu (13688)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 12:33:32 +0000 ubuntu (13688)] INFO : Finished instrumentation
+[05/09/16 12:33:33 +0000 ubuntu (13688)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 12:33:35 +0000 ubuntu (13688)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 13:22:55 +0000 ubuntu (11899)] INFO : Starting Agent shutdown
+[05/09/16 13:42:31 +0000 ubuntu (13688)] INFO : Starting Agent shutdown
+[05/09/16 13:42:54 +0000 ubuntu (14544)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 13:42:54 +0000 ubuntu (14544)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 13:42:54 +0000 ubuntu (14544)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 13:42:54 +0000 ubuntu (14544)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 13:42:54 +0000 ubuntu (14544)] INFO : Environment: production
+[05/09/16 13:42:54 +0000 ubuntu (14544)] INFO : Dispatcher: webrick
+[05/09/16 13:42:54 +0000 ubuntu (14544)] INFO : Application: Sharetribe
+[05/09/16 13:42:54 +0000 ubuntu (14544)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 13:42:54 +0000 ubuntu (14544)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 13:42:54 +0000 ubuntu (14544)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 13:42:54 +0000 ubuntu (14544)] INFO : Installing deferred Rack instrumentation
+[05/09/16 13:42:54 +0000 ubuntu (14544)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 13:42:54 +0000 ubuntu (14544)] INFO : Installing Net instrumentation
+[05/09/16 13:42:54 +0000 ubuntu (14544)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 13:42:54 +0000 ubuntu (14544)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 13:42:54 +0000 ubuntu (14544)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 13:42:54 +0000 ubuntu (14544)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 13:42:54 +0000 ubuntu (14544)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 13:42:54 +0000 ubuntu (14544)] INFO : Finished instrumentation
+[05/09/16 13:42:55 +0000 ubuntu (14544)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 13:42:57 +0000 ubuntu (14544)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 14:04:30 +0000 ubuntu (13457)] INFO : Installing DelayedJob instrumentation [part 2/2]
+[05/09/16 14:04:30 +0000 ubuntu (13457)] WARN : Transaction tracer already in place for class = Delayed::Backend::ActiveRecord::Job, method = invoke_job, skipping
+[05/09/16 14:04:30 +0000 ubuntu (13457)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 14:04:30 +0000 ubuntu (13457)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 14:04:30 +0000 ubuntu (13457)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 14:04:40 +0000 ubuntu (13457)] INFO : Starting Agent shutdown
+[05/09/16 14:05:37 +0000 ubuntu (15206)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 14:05:37 +0000 ubuntu (15206)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 14:05:37 +0000 ubuntu (15206)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 14:05:37 +0000 ubuntu (15206)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 14:05:37 +0000 ubuntu (15206)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 14:05:37 +0000 ubuntu (15206)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 14:05:37 +0000 ubuntu (15206)] INFO : Installing deferred Rack instrumentation
+[05/09/16 14:05:37 +0000 ubuntu (15206)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 14:05:37 +0000 ubuntu (15206)] INFO : Installing Net instrumentation
+[05/09/16 14:05:37 +0000 ubuntu (15206)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 14:05:37 +0000 ubuntu (15206)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 14:05:37 +0000 ubuntu (15206)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 14:05:37 +0000 ubuntu (15206)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 14:05:37 +0000 ubuntu (15206)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 14:05:37 +0000 ubuntu (15206)] INFO : Finished instrumentation
+[05/09/16 14:05:38 +0000 ubuntu (15206)] INFO : Installing DelayedJob instrumentation [part 2/2]
+[05/09/16 14:05:38 +0000 ubuntu (15206)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 14:05:38 +0000 ubuntu (15206)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 14:05:38 +0000 ubuntu (15206)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 14:05:38 +0000 ubuntu (15206)] INFO : Environment: production
+[05/09/16 14:05:38 +0000 ubuntu (15206)] INFO : Dispatcher: delayed_job
+[05/09/16 14:05:38 +0000 ubuntu (15206)] INFO : Application: Sharetribe
+[05/09/16 14:05:42 +0000 ubuntu (15206)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 14:06:42 +0000 ubuntu (15206)] WARN : Removing #<NewRelic::Agent::Samplers::DelayedJobSampler:0x000000057e4780> from list
+[05/09/16 14:06:42 +0000 ubuntu (15206)] WARN : NoMethodError: undefined method `each' for 2:Fixnum
+[05/09/16 14:07:47 +0000 ubuntu (15206)] INFO : Installing DelayedJob instrumentation [part 2/2]
+[05/09/16 14:07:47 +0000 ubuntu (15206)] WARN : Transaction tracer already in place for class = Delayed::Backend::ActiveRecord::Job, method = invoke_job, skipping
+[05/09/16 14:07:47 +0000 ubuntu (15206)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 14:07:47 +0000 ubuntu (15206)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 14:07:47 +0000 ubuntu (15206)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 14:08:32 +0000 ubuntu (15206)] INFO : Starting Agent shutdown
+[05/09/16 14:08:39 +0000 ubuntu (15286)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 14:08:39 +0000 ubuntu (15286)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 14:08:39 +0000 ubuntu (15286)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 14:08:39 +0000 ubuntu (15286)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 14:08:39 +0000 ubuntu (15286)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 14:08:39 +0000 ubuntu (15286)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 14:08:39 +0000 ubuntu (15286)] INFO : Installing deferred Rack instrumentation
+[05/09/16 14:08:39 +0000 ubuntu (15286)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 14:08:39 +0000 ubuntu (15286)] INFO : Installing Net instrumentation
+[05/09/16 14:08:39 +0000 ubuntu (15286)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 14:08:39 +0000 ubuntu (15286)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 14:08:39 +0000 ubuntu (15286)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 14:08:39 +0000 ubuntu (15286)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 14:08:39 +0000 ubuntu (15286)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 14:08:39 +0000 ubuntu (15286)] INFO : Finished instrumentation
+[05/09/16 14:09:43 +0000 ubuntu (15303)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 14:09:43 +0000 ubuntu (15303)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 14:09:43 +0000 ubuntu (15303)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 14:09:43 +0000 ubuntu (15303)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 14:09:43 +0000 ubuntu (15303)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 14:09:43 +0000 ubuntu (15303)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 14:09:43 +0000 ubuntu (15303)] INFO : Installing deferred Rack instrumentation
+[05/09/16 14:09:43 +0000 ubuntu (15303)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 14:09:43 +0000 ubuntu (15303)] INFO : Installing Net instrumentation
+[05/09/16 14:09:43 +0000 ubuntu (15303)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 14:09:43 +0000 ubuntu (15303)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 14:09:43 +0000 ubuntu (15303)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 14:09:43 +0000 ubuntu (15303)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 14:09:43 +0000 ubuntu (15303)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 14:09:43 +0000 ubuntu (15303)] INFO : Finished instrumentation
+[05/09/16 14:09:46 +0000 ubuntu (15312)] INFO : Installing DelayedJob instrumentation [part 2/2]
+[05/09/16 14:09:46 +0000 ubuntu (15312)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 14:09:46 +0000 ubuntu (15312)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 14:09:46 +0000 ubuntu (15312)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 14:09:46 +0000 ubuntu (15312)] INFO : Environment: production
+[05/09/16 14:09:46 +0000 ubuntu (15312)] INFO : Dispatcher: delayed_job
+[05/09/16 14:09:46 +0000 ubuntu (15312)] INFO : Application: Sharetribe
+[05/09/16 14:09:50 +0000 ubuntu (15312)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 14:10:15 +0000 ubuntu (14544)] INFO : Starting Agent shutdown
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 14:10:26 +0000 ubuntu (15326)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : Environment: production
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : Dispatcher: webrick
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : Application: Sharetribe
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : Installing deferred Rack instrumentation
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : Installing Net instrumentation
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : Finished instrumentation
+[05/09/16 14:10:26 +0000 ubuntu (15326)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 14:10:28 +0000 ubuntu (15326)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 14:10:50 +0000 ubuntu (15312)] WARN : Removing #<NewRelic::Agent::Samplers::DelayedJobSampler:0x000000098bf390> from list
+[05/09/16 14:10:50 +0000 ubuntu (15312)] WARN : NoMethodError: undefined method `each' for 2:Fixnum
+[05/09/16 14:25:02 +0000 ubuntu (15326)] INFO : Starting Agent shutdown
+[05/09/16 14:32:07 +0000 ubuntu (16170)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 14:32:07 +0000 ubuntu (16170)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 14:32:07 +0000 ubuntu (16170)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 14:32:07 +0000 ubuntu (16170)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 14:32:07 +0000 ubuntu (16170)] INFO : Environment: production
+[05/09/16 14:32:07 +0000 ubuntu (16170)] INFO : Dispatcher: puma
+[05/09/16 14:32:07 +0000 ubuntu (16170)] INFO : Application: Sharetribe
+[05/09/16 14:32:07 +0000 ubuntu (16170)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 14:32:07 +0000 ubuntu (16170)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 14:32:07 +0000 ubuntu (16170)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 14:32:07 +0000 ubuntu (16170)] INFO : Installing deferred Rack instrumentation
+[05/09/16 14:32:07 +0000 ubuntu (16170)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 14:32:07 +0000 ubuntu (16170)] INFO : Installing Net instrumentation
+[05/09/16 14:32:07 +0000 ubuntu (16170)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 14:32:07 +0000 ubuntu (16170)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 14:32:07 +0000 ubuntu (16170)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 14:32:07 +0000 ubuntu (16170)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 14:32:07 +0000 ubuntu (16170)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 14:32:07 +0000 ubuntu (16170)] INFO : Finished instrumentation
+[05/09/16 14:32:08 +0000 ubuntu (16170)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 14:32:10 +0000 ubuntu (16170)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 14:34:31 +0000 ubuntu (16170)] INFO : Starting Agent shutdown
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 14:34:49 +0000 ubuntu (16209)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : Environment: production
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : Dispatcher: puma
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : Application: Sharetribe
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : Installing deferred Rack instrumentation
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : Installing Net instrumentation
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : Finished instrumentation
+[05/09/16 14:34:49 +0000 ubuntu (16209)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 14:34:52 +0000 ubuntu (16209)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 14:36:37 +0000 ubuntu (16209)] INFO : Starting Agent shutdown
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 14:43:21 +0000 ubuntu (16299)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : Environment: production
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : Dispatcher: puma
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : Application: Sharetribe
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : Installing deferred Rack instrumentation
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : Installing Net instrumentation
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : Finished instrumentation
+[05/09/16 14:43:21 +0000 ubuntu (16299)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 14:43:23 +0000 ubuntu (16299)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 14:43:52 +0000 ubuntu (16299)] INFO : Starting Agent shutdown
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 14:44:14 +0000 ubuntu (16325)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : Environment: production
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : No known dispatcher detected.
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : Application: Sharetribe
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : Installing deferred Rack instrumentation
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : Installing Net instrumentation
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : Finished instrumentation
+[05/09/16 14:44:14 +0000 ubuntu (16325)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 14:44:16 +0000 ubuntu (16325)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 14:52:36 +0000 ubuntu (16325)] INFO : Starting Agent shutdown
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 14:53:02 +0000 ubuntu (16711)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : Environment: production
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : No known dispatcher detected.
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : Application: Sharetribe
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : Installing deferred Rack instrumentation
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : Installing Net instrumentation
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : Finished instrumentation
+[05/09/16 14:53:02 +0000 ubuntu (16711)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 14:53:05 +0000 ubuntu (16711)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 14:54:19 +0000 ubuntu (16711)] INFO : Starting Agent shutdown
+[05/09/16 14:54:46 +0000 ubuntu (16749)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 14:54:46 +0000 ubuntu (16749)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 14:54:46 +0000 ubuntu (16749)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 14:54:46 +0000 ubuntu (16749)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 14:54:46 +0000 ubuntu (16749)] INFO : Environment: production
+[05/09/16 14:54:46 +0000 ubuntu (16749)] INFO : Dispatcher: puma
+[05/09/16 14:54:46 +0000 ubuntu (16749)] INFO : Application: Sharetribe
+[05/09/16 14:54:46 +0000 ubuntu (16749)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 14:54:46 +0000 ubuntu (16749)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 14:54:46 +0000 ubuntu (16749)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 14:54:46 +0000 ubuntu (16749)] INFO : Installing deferred Rack instrumentation
+[05/09/16 14:54:46 +0000 ubuntu (16749)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 14:54:46 +0000 ubuntu (16749)] INFO : Installing Net instrumentation
+[05/09/16 14:54:46 +0000 ubuntu (16749)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 14:54:46 +0000 ubuntu (16749)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 14:54:46 +0000 ubuntu (16749)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 14:54:46 +0000 ubuntu (16749)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 14:54:46 +0000 ubuntu (16749)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 14:54:46 +0000 ubuntu (16749)] INFO : Finished instrumentation
+[05/09/16 14:54:47 +0000 ubuntu (16749)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 14:54:49 +0000 ubuntu (16749)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 14:55:22 +0000 ubuntu (16749)] INFO : Starting Agent shutdown
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 14:55:41 +0000 ubuntu (16775)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : Environment: production
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : Dispatcher: puma
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : Application: Sharetribe
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : Installing deferred Rack instrumentation
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : Installing Net instrumentation
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : Finished instrumentation
+[05/09/16 14:55:41 +0000 ubuntu (16775)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 14:55:43 +0000 ubuntu (16775)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 14:56:57 +0000 ubuntu (16775)] INFO : Starting Agent shutdown
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 14:57:58 +0000 ubuntu (16980)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : Environment: production
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : Dispatcher: webrick
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : Application: Sharetribe
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : Installing deferred Rack instrumentation
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : Installing Net instrumentation
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : Finished instrumentation
+[05/09/16 14:57:58 +0000 ubuntu (16980)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 14:58:01 +0000 ubuntu (16980)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 15:00:00 +0000 ubuntu (16980)] INFO : Starting Agent shutdown
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 15:00:31 +0000 ubuntu (17020)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : Environment: production
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : Dispatcher: webrick
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : Application: Sharetribe
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : Installing deferred Rack instrumentation
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : Installing Net instrumentation
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : Finished instrumentation
+[05/09/16 15:00:31 +0000 ubuntu (17020)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 15:00:33 +0000 ubuntu (17020)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 15:01:10 +0000 ubuntu (17020)] INFO : Starting Agent shutdown
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 15:06:48 +0000 ubuntu (17244)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : Environment: production
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : Dispatcher: puma
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : Application: Sharetribe
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : Installing deferred Rack instrumentation
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : Installing Net instrumentation
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : Finished instrumentation
+[05/09/16 15:06:48 +0000 ubuntu (17244)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 15:06:50 +0000 ubuntu (17244)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 15:07:07 +0000 ubuntu (17244)] INFO : Starting Agent shutdown
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : Starting the New Relic agent in "production" environment.
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : Reading configuration from config/newrelic.yml
+[05/09/16 15:07:18 +0000 ubuntu (17284)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : Environment: production
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : Dispatcher: puma
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : Application: Sharetribe
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : delayed_job not available: No DJ worker present
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : Installing deferred Rack instrumentation
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : Installing Net instrumentation
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : Installing Dalli Memcache instrumentation
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : Finished instrumentation
+[05/09/16 15:07:18 +0000 ubuntu (17284)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/09/16 15:07:21 +0000 ubuntu (17284)] INFO : Doing deferred dependency-detection before Rack startup
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : Starting the New Relic agent in "production" environment.
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : Reading configuration from config/newrelic.yml
+[05/10/16 11:44:45 +0000 ubuntu (29822)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : Environment: production
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : Dispatcher: puma
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : Application: Sharetribe
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : delayed_job not available: No DJ worker present
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : Installing ActiveRecord 4 instrumentation
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : Installing deferred Rack instrumentation
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : Installing Rack::Builder middleware instrumentation
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : Installing Net instrumentation
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : Installing Rails 3+ middleware instrumentation
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : Installing Dalli Memcache instrumentation
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : Installing Rails 4 view instrumentation
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : Installing Rails 4 Error instrumentation
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : Installing Rails 4 Controller instrumentation
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : Finished instrumentation
+[05/10/16 11:44:45 +0000 ubuntu (29822)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/10/16 11:44:47 +0000 ubuntu (29822)] INFO : Doing deferred dependency-detection before Rack startup
+[05/10/16 11:44:47 +0000 ubuntu (29822)] INFO : Starting Agent shutdown
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : Starting the New Relic agent in "production" environment.
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : Reading configuration from config/newrelic.yml
+[05/10/16 11:46:04 +0000 ubuntu (29855)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : Environment: production
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : Dispatcher: puma
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : Application: Sharetribe
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : delayed_job not available: No DJ worker present
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : Installing ActiveRecord 4 instrumentation
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : Installing deferred Rack instrumentation
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : Installing Rack::Builder middleware instrumentation
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : Installing Net instrumentation
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : Installing Rails 3+ middleware instrumentation
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : Installing Dalli Memcache instrumentation
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : Installing Rails 4 view instrumentation
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : Installing Rails 4 Error instrumentation
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : Installing Rails 4 Controller instrumentation
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : Finished instrumentation
+[05/10/16 11:46:04 +0000 ubuntu (29855)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/10/16 11:46:06 +0000 ubuntu (29855)] INFO : Doing deferred dependency-detection before Rack startup
+[05/10/16 11:46:06 +0000 ubuntu (29855)] INFO : Starting Agent shutdown
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : Starting the New Relic agent in "production" environment.
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : Reading configuration from config/newrelic.yml
+[05/10/16 11:46:48 +0000 ubuntu (29871)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : Environment: production
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : No known dispatcher detected.
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : Application: Sharetribe
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : delayed_job not available: No DJ worker present
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : Installing ActiveRecord 4 instrumentation
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : Installing deferred Rack instrumentation
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : Installing Rack::Builder middleware instrumentation
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : Installing Net instrumentation
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : Installing Rails 3+ middleware instrumentation
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : Installing Dalli Memcache instrumentation
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : Installing Rails 4 view instrumentation
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : Installing Rails 4 Error instrumentation
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : Installing Rails 4 Controller instrumentation
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : Finished instrumentation
+[05/10/16 11:46:48 +0000 ubuntu (29871)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/10/16 11:46:50 +0000 ubuntu (29871)] INFO : Doing deferred dependency-detection before Rack startup
+[05/10/16 11:46:50 +0000 ubuntu (29871)] INFO : Starting Agent shutdown
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : Starting the New Relic agent in "production" environment.
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : Reading configuration from config/newrelic.yml
+[05/10/16 11:47:10 +0000 ubuntu (29895)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : Environment: production
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : Dispatcher: puma
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : Application: Sharetribe
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : delayed_job not available: No DJ worker present
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : Installing ActiveRecord 4 instrumentation
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : Installing deferred Rack instrumentation
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : Installing Rack::Builder middleware instrumentation
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : Installing Net instrumentation
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : Installing Rails 3+ middleware instrumentation
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : Installing Dalli Memcache instrumentation
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : Installing Rails 4 view instrumentation
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : Installing Rails 4 Error instrumentation
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : Installing Rails 4 Controller instrumentation
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : Finished instrumentation
+[05/10/16 11:47:10 +0000 ubuntu (29895)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/10/16 11:47:12 +0000 ubuntu (29895)] INFO : Doing deferred dependency-detection before Rack startup
+[05/10/16 11:47:12 +0000 ubuntu (29895)] INFO : Starting Agent shutdown
+[05/10/16 11:48:08 +0000 ubuntu (29914)] INFO : Starting the New Relic agent in "production" environment.
+[05/10/16 11:48:08 +0000 ubuntu (29914)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/10/16 11:48:08 +0000 ubuntu (29914)] INFO : Reading configuration from config/newrelic.yml
+[05/10/16 11:48:08 +0000 ubuntu (29914)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/10/16 11:48:08 +0000 ubuntu (29914)] INFO : Environment: production
+[05/10/16 11:48:08 +0000 ubuntu (29914)] INFO : No known dispatcher detected.
+[05/10/16 11:48:08 +0000 ubuntu (29914)] INFO : Application: Sharetribe
+[05/10/16 11:48:08 +0000 ubuntu (29914)] INFO : delayed_job not available: No DJ worker present
+[05/10/16 11:48:08 +0000 ubuntu (29914)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/10/16 11:48:08 +0000 ubuntu (29914)] INFO : Installing ActiveRecord 4 instrumentation
+[05/10/16 11:48:08 +0000 ubuntu (29914)] INFO : Installing deferred Rack instrumentation
+[05/10/16 11:48:08 +0000 ubuntu (29914)] INFO : Installing Rack::Builder middleware instrumentation
+[05/10/16 11:48:08 +0000 ubuntu (29914)] INFO : Installing Net instrumentation
+[05/10/16 11:48:08 +0000 ubuntu (29914)] INFO : Installing Rails 3+ middleware instrumentation
+[05/10/16 11:48:08 +0000 ubuntu (29914)] INFO : Installing Dalli Memcache instrumentation
+[05/10/16 11:48:08 +0000 ubuntu (29914)] INFO : Installing Rails 4 view instrumentation
+[05/10/16 11:48:08 +0000 ubuntu (29914)] INFO : Installing Rails 4 Error instrumentation
+[05/10/16 11:48:08 +0000 ubuntu (29914)] INFO : Installing Rails 4 Controller instrumentation
+[05/10/16 11:48:08 +0000 ubuntu (29914)] INFO : Finished instrumentation
+[05/10/16 11:48:09 +0000 ubuntu (29914)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/10/16 11:48:11 +0000 ubuntu (29914)] INFO : Doing deferred dependency-detection before Rack startup
+[05/10/16 11:48:11 +0000 ubuntu (29914)] INFO : Starting Agent shutdown
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : Starting the New Relic agent in "production" environment.
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : Reading configuration from config/newrelic.yml
+[05/10/16 12:00:12 +0000 ubuntu (30064)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : Environment: production
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : No known dispatcher detected.
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : Application: Sharetribe
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : delayed_job not available: No DJ worker present
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : Installing ActiveRecord 4 instrumentation
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : Installing deferred Rack instrumentation
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : Installing Rack::Builder middleware instrumentation
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : Installing Net instrumentation
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : Installing Rails 3+ middleware instrumentation
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : Installing Dalli Memcache instrumentation
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : Installing Rails 4 view instrumentation
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : Installing Rails 4 Error instrumentation
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : Installing Rails 4 Controller instrumentation
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : Finished instrumentation
+[05/10/16 12:00:12 +0000 ubuntu (30064)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/10/16 12:00:14 +0000 ubuntu (30064)] INFO : Doing deferred dependency-detection before Rack startup
+[05/10/16 12:00:14 +0000 ubuntu (30064)] INFO : Starting Agent shutdown
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : Starting the New Relic agent in "production" environment.
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : Reading configuration from config/newrelic.yml
+[05/10/16 12:00:39 +0000 ubuntu (30082)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : Environment: production
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : No known dispatcher detected.
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : Application: Sharetribe
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : delayed_job not available: No DJ worker present
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : Installing ActiveRecord 4 instrumentation
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : Installing deferred Rack instrumentation
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : Installing Rack::Builder middleware instrumentation
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : Installing Net instrumentation
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : Installing Rails 3+ middleware instrumentation
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : Installing Dalli Memcache instrumentation
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : Installing Rails 4 view instrumentation
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : Installing Rails 4 Error instrumentation
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : Installing Rails 4 Controller instrumentation
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : Finished instrumentation
+[05/10/16 12:00:39 +0000 ubuntu (30082)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/10/16 12:00:41 +0000 ubuntu (30082)] INFO : Doing deferred dependency-detection before Rack startup
+[05/10/16 12:00:41 +0000 ubuntu (30082)] INFO : Starting Agent shutdown
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : Starting the New Relic agent in "production" environment.
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : Reading configuration from config/newrelic.yml
+[05/10/16 12:03:17 +0000 ubuntu (30124)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : Environment: production
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : Dispatcher: webrick
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : Application: Sharetribe
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : delayed_job not available: No DJ worker present
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : Installing ActiveRecord 4 instrumentation
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : Installing deferred Rack instrumentation
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : Installing Rack::Builder middleware instrumentation
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : Installing Net instrumentation
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : Installing Rails 3+ middleware instrumentation
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : Installing Dalli Memcache instrumentation
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : Installing Rails 4 view instrumentation
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : Installing Rails 4 Error instrumentation
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : Installing Rails 4 Controller instrumentation
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : Finished instrumentation
+[05/10/16 12:03:17 +0000 ubuntu (30124)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/10/16 12:03:19 +0000 ubuntu (30124)] INFO : Doing deferred dependency-detection before Rack startup
+[05/10/16 12:03:19 +0000 ubuntu (30124)] INFO : Starting Agent shutdown
+[05/10/16 12:09:36 +0000 ubuntu (17284)] INFO : Starting Agent shutdown
+[05/10/16 12:10:55 +0000 ubuntu (30252)] INFO : Starting the New Relic agent in "production" environment.
+[05/10/16 12:10:55 +0000 ubuntu (30252)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[05/10/16 12:10:55 +0000 ubuntu (30252)] INFO : Reading configuration from config/newrelic.yml
+[05/10/16 12:10:55 +0000 ubuntu (30252)] WARN : Agent is configured not to use SSL when communicating with New Relic's servers
+[05/10/16 12:10:55 +0000 ubuntu (30252)] INFO : Environment: production
+[05/10/16 12:10:55 +0000 ubuntu (30252)] INFO : No known dispatcher detected.
+[05/10/16 12:10:55 +0000 ubuntu (30252)] INFO : Application: Sharetribe
+[05/10/16 12:10:55 +0000 ubuntu (30252)] INFO : delayed_job not available: No DJ worker present
+[05/10/16 12:10:56 +0000 ubuntu (30252)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[05/10/16 12:10:56 +0000 ubuntu (30252)] INFO : Installing ActiveRecord 4 instrumentation
+[05/10/16 12:10:56 +0000 ubuntu (30252)] INFO : Installing deferred Rack instrumentation
+[05/10/16 12:10:56 +0000 ubuntu (30252)] INFO : Installing Rack::Builder middleware instrumentation
+[05/10/16 12:10:56 +0000 ubuntu (30252)] INFO : Installing Net instrumentation
+[05/10/16 12:10:56 +0000 ubuntu (30252)] INFO : Installing Rails 3+ middleware instrumentation
+[05/10/16 12:10:56 +0000 ubuntu (30252)] INFO : Installing Dalli Memcache instrumentation
+[05/10/16 12:10:56 +0000 ubuntu (30252)] INFO : Installing Rails 4 view instrumentation
+[05/10/16 12:10:56 +0000 ubuntu (30252)] INFO : Installing Rails 4 Error instrumentation
+[05/10/16 12:10:56 +0000 ubuntu (30252)] INFO : Installing Rails 4 Controller instrumentation
+[05/10/16 12:10:56 +0000 ubuntu (30252)] INFO : Finished instrumentation
+[05/10/16 12:10:56 +0000 ubuntu (30252)] INFO : Reporting to: https://rpm.newrelic.com/accounts/21154/applications/854556
+[05/10/16 12:10:58 +0000 ubuntu (30252)] INFO : Doing deferred dependency-detection before Rack startup
+[05/10/16 12:27:39 +0000 ubuntu (15312)] INFO : Starting Agent shutdown
+[05/10/16 12:33:07 +0000 ubuntu (30252)] INFO : Starting Agent shutdown
