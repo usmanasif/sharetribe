@@ -54,6 +54,7 @@ Kassi::Application.routes.draw do
   namespace :int_api do
     post "/create_trial_marketplace" => "marketplaces#create"
     post "/prospect_emails" => "marketplaces#create_prospect_email"
+    post "/login_with_API" => "marketplaces#login"
   end
 
   locale_matcher = Regexp.new(Sharetribe::AVAILABLE_LOCALES.map { |l| l[:ident] }.concat(Sharetribe::REMOVED_LOCALES.to_a).join("|"))

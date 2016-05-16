@@ -64,6 +64,10 @@ class IntApi::MarketplacesController < ApplicationController
 
     head 200, content_type: "application/json"
   end
+  
+  def login
+    render status:  200 , json: ["Successful"]
+  end
 
   private
 
@@ -77,5 +81,4 @@ class IntApi::MarketplacesController < ApplicationController
       FeatureFlagService::API::Api.features.enable(community_id: community_id, features: [:onboarding_redesign_v1])
     end
   end
-
 end
