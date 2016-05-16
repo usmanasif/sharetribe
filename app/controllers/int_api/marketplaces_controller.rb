@@ -69,6 +69,10 @@ class IntApi::MarketplacesController < ApplicationController
     render status:  200 , json: ["Successful"]
   end
 
+  def signup
+    render status:  200 , json: ["Successful"]
+  end
+
   private
 
   def set_access_control_headers
