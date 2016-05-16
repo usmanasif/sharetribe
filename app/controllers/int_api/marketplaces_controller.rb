@@ -70,6 +70,7 @@ class IntApi::MarketplacesController < ApplicationController
   end
 
   def signup
+    puts '*'*50 , 'params' , params , '*'*50
     render status:  200 , json: ["Successful"]
   end
 
