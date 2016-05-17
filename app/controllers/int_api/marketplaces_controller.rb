@@ -121,10 +121,12 @@ class IntApi::MarketplacesController < ApplicationController
 
       email = Email.new(:person => person, :address => params[:person][:email].downcase, :send_notifications => true, community_id: current_community.id)
       params["person"].delete(:email)
+      params["person"].delete(:first_name)
+      params["person"].delete(:last_name)
       params["person"][:password2] = params[:person][:password]
 
       # person = build_devise_resource_from_person(params[:person])
-
+      person.create(params[:person])
       person.emails << email
 
       person.inherit_settings_from(current_community)
