@@ -97,7 +97,7 @@ class IntApi::MarketplacesController < ApplicationController
 
     # This part is copied from Devise's regstration_controller#create
     # build_resource(person_params)
-    resource
+    # resource
   end
 
   def set_access_control_headers
@@ -123,7 +123,7 @@ class IntApi::MarketplacesController < ApplicationController
       params["person"].delete(:email)
       params["person"][:password2] = params[:person][:password]
 
-      person = build_devise_resource_from_person(params[:person])
+      # person = build_devise_resource_from_person(params[:person])
 
       person.emails << email
 
