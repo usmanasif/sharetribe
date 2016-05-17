@@ -96,7 +96,7 @@ class IntApi::MarketplacesController < ApplicationController
     person_params.delete(:terms) #remove terms part which confuses Devise
 
     # This part is copied from Devise's regstration_controller#create
-    Devise::RegistrationsController.build_resource(person_params)
+    build_resource(person_params)
     resource
   end
 
