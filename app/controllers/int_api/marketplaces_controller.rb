@@ -115,15 +115,19 @@ class IntApi::MarketplacesController < ApplicationController
     def new_person(params, current_community)
       person = Person.new
 
-      params[:person][:locale] =  params[:locale] || APP_CONFIG.default_locale
-      params[:person][:test_group_number] = 1 + rand(4)
-      params[:person][:community_id] = 1
+      person.locale =  params[:locale] || APP_CONFIG.default_locale
+      person.test_group_number = 1 + rand(4)
+      person.community_id = 1
+      person.email = params[:email]
+      person.password = params[:password]
+      person.password2 = params[:password]
+      person.user_name = params[:username]
 
       email = Email.new(:person => person, :address => params[:person][:email].downcase, :send_notifications => true, community_id: current_community.id)
-      params["person"].delete(:email)
-      params["person"].delete(:first_name)
-      params["person"].delete(:last_name)
-      params["person"][:password2] = params[:person][:password]
+      # params["person"].delete(:email)
+      # params["person"].delete(:first_name)
+      # params["person"].delete(:last_name)
+      # params["person"][:password2] = params[:person][:password]
 
       # person = build_devise_resource_from_person(params[:person])
       person.create(params[:person])
@@ -132,7 +136,7 @@ class IntApi::MarketplacesController < ApplicationController
       person.inherit_settings_from(current_community)
 
       if person.save!
-        sign_in(resource_name, resource)
+        sign_in(person)
       end
 
       person.set_default_preferences
