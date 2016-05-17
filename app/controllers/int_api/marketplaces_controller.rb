@@ -70,21 +70,24 @@ class IntApi::MarketplacesController < ApplicationController
   end
 
   def signup
-    puts '*'*50 , 'params' , params , '*'*50
-    new_person = Person.new
-    new_person.email = params[:user][:email]
-    new_person.passowrd = params[:user][:password]
-    new_person.password_confirmation = params[:user][:password]
-    new_person.community_id = 1
-    if new_person.save!
-      puts "==========="
-      puts "==========="
-      puts new_person.inspect
-      puts "==========="
-      render  json: ["Successful"], status:  200 
-    else
-      render json: ["There is a problem"],status: 500
-    end
+    @current_community = Community.first
+    # Make person a member of the current community
+    @person, email = new_person(params, @current_community)
+    
+    membership = CommunityMembership.new(:person => @person, :community => @current_community, :consent => @current_community.consent)
+    membership.status = "pending_email_confirmation"
+    membership.save!
+    session[:invitation_code] = nil
+
+    session[:person_id] = @person.id
+
+    # If invite was used, reduce usages left
+    invitation.use_once! if invitation.present?
+
+    Delayed::Job.enqueue(CommunityJoinedJob.new(@person.id, @current_community.id)) if @current_community
+
+    render  json: ["Successful"], status:  200 
+
   end
 
   private
@@ -99,4 +102,30 @@ class IntApi::MarketplacesController < ApplicationController
       FeatureFlagService::API::Api.features.enable(community_id: community_id, features: [:onboarding_redesign_v1])
     end
   end
+
+    # Create a new person by params and current community
+    def new_person(params, current_community)
+      person = Person.new
+
+      params[:person][:locale] =  params[:locale] || APP_CONFIG.default_locale
+      params[:person][:test_group_number] = 1 + rand(4)
+      params[:person][:community_id] = 1
+
+      email = Email.new(:person => person, :address => params[:person][:email].downcase, :send_notifications => true, community_id: current_community.id)
+      params["person"].delete(:email)
+      params["person"][:password2] = params[:person][:password]
+
+      person = build_devise_resource_from_person(params[:person])
+
+      person.emails << email
+
+      person.inherit_settings_from(current_community)
+
+      if person.save!
+        sign_in(resource_name, resource)
+      end
+
+      person.set_default_preferences
+      [person, email]
+    end
 end
