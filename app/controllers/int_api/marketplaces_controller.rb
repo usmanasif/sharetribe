@@ -82,7 +82,7 @@ class IntApi::MarketplacesController < ApplicationController
     session[:person_id] = @person.id
 
     # If invite was used, reduce usages left
-    invitation.use_once! if invitation.present?
+    # invitation.use_once! if invitation.present?
 
     Delayed::Job.enqueue(CommunityJoinedJob.new(@person.id, @current_community.id)) if @current_community
 
