@@ -16,6 +16,18 @@ module ApplicationHelper
     return icon
   end
 
+  def resource_name
+    :user
+  end
+
+  def resource
+    @resource ||= User.new
+  end
+
+  def devise_mapping
+    @devise_mapping ||= Devise.mappings[:user]
+  end
+
   def self.icon_specified?(icon_name)
     ICON_MAP[ICON_PACK][icon_name].present?
   end
