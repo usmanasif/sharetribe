@@ -92,6 +92,14 @@ class IntApi::MarketplacesController < ApplicationController
 
   private
 
+  def build_devise_resource_from_person(person_params)
+    person_params.delete(:terms) #remove terms part which confuses Devise
+
+    # This part is copied from Devise's regstration_controller#create
+    Devise::RegistrationsController.build_resource(person_params)
+    resource
+  end
+
   def set_access_control_headers
     # TODO change this to more strict setting when done testing
     headers['Access-Control-Allow-Origin'] = '*'
