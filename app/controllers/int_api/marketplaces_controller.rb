@@ -71,7 +71,16 @@ class IntApi::MarketplacesController < ApplicationController
 
   def signup
     puts '*'*50 , 'params' , params , '*'*50
-    render status:  200 , json: ["Successful"]
+    new_person = Person.new
+    new_person.email = params[:email]
+    new_person.passowrd = params[:password]
+    new_person.password_confirmation = params[:password_confirmation]
+    new_person.community_id = 1
+    if new_person.save
+      render status:  200 , json: ["Successful"]
+    else
+      render status: 500, json: ["There is a problem"]
+    end
   end
 
   private
