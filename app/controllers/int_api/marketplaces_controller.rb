@@ -130,7 +130,7 @@ class IntApi::MarketplacesController < ApplicationController
       # params["person"][:password2] = params[:person][:password]
 
       # person = build_devise_resource_from_person(params[:person])
-      person.create(params[:person])
+      # person.create(params[:person])
       person.emails << email
 
       person.inherit_settings_from(current_community)
