@@ -113,7 +113,7 @@ class IntApi::MarketplacesController < ApplicationController
 
     # Create a new person by params and current community
     def new_person(params, current_community)
-      person = Person.new
+      person = Person.create
 
       person.locale =  params[:locale] || APP_CONFIG.default_locale
       person.test_group_number = 1 + rand(4)
