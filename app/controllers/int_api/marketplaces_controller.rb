@@ -121,7 +121,7 @@ class IntApi::MarketplacesController < ApplicationController
       person.email = params[:person][:email]
       person.password = params[:person][:password]
       person.password2 = params[:person][:password]
-      person.Username = params[:person][:username]
+      person.username = params[:person][:username]
 
       email = Email.new(:person => person, :address => params[:person][:email].downcase, :send_notifications => true, community_id: current_community.id)
       # params["person"].delete(:email)
