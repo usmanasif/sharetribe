@@ -71,15 +71,19 @@ class IntApi::MarketplacesController < ApplicationController
 
   def signup
     puts '*'*50 , 'params' , params , '*'*50
-    new_person = Person.new
+    new_person = Person.create(params[:user])
     new_person.email = params[:email]
     new_person.passowrd = params[:password]
     new_person.password_confirmation = params[:password_confirmation]
     new_person.community_id = 1
-    if new_person.save
-      render status:  200 , json: ["Successful"]
+    if new_person.save!
+      puts "==========="
+      puts "==========="
+      puts new_person.inspect
+      puts "==========="
+      render  json: ["Successful"], status:  200 
     else
-      render status: 500, json: ["There is a problem"]
+      render json: ["There is a problem"],status: 500
     end
   end
 
