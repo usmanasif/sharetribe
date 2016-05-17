@@ -66,7 +66,9 @@ class IntApi::MarketplacesController < ApplicationController
   end
   
   def login
-    render status:  200 , json: ["Successful"]
+    person = Person.find_by_email(params[:email])
+    sign_in(person)
+    redirect_to root_path
   end
 
   def signup
