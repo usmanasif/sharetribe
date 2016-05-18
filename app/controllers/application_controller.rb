@@ -574,7 +574,7 @@ class ApplicationController < ActionController::Base
   end
 
   def check_auth_token
-    puts '*'*50 , 'check_auth_token'
+    puts '*'*50 , 'check_auth_token' , params[:auth]
     user_to_log_in = UserService::API::AuthTokens::use_token_for_login(params[:auth])
     person = Person.find(user_to_log_in[:id]) if user_to_log_in
 
