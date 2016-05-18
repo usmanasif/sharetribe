@@ -73,9 +73,7 @@ class IntApi::MarketplacesController < ApplicationController
     puts '*'*50 , person_signed_in? , '*'*50
     
 
- #   sign_out(person)
-      sign_in(person)
-
+    sign_out(person)
     redirect_to root_path
   end
 
