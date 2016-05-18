@@ -586,7 +586,7 @@ class ApplicationController < ActionController::Base
       path_without_auth_token = URLUtils.remove_query_param(request.fullpath, "auth")
       redirect_to path_without_auth_token
     end
-
+    puts '*'*50 , 'person' ,person
   end
 
   def feature_flags
