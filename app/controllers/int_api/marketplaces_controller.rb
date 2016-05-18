@@ -1,6 +1,6 @@
 class IntApi::MarketplacesController < ApplicationController
 
-  skip_filter :fetch_community, :check_http_auth
+  #skip_filter :fetch_community, :check_http_auth
 
   before_filter :set_access_control_headers
 
@@ -71,8 +71,6 @@ class IntApi::MarketplacesController < ApplicationController
     puts '*'*50 , person_signed_in? , '*'*50
     if !person_signed_in?
       sign_in(person)
-    else
-      sign_out(person)
     end
     redirect_to root_path
   end
