@@ -69,7 +69,7 @@ class IntApi::MarketplacesController < ApplicationController
     person = Person.find_by_email(params[:email])
     puts '*'*50 , person.inspect , '*'*50
     puts '*'*50 , person_signed_in? , '*'*50
-    if person_signed_in?
+    if !person_signed_in?
       sign_in(person)
     else
       sign_out(person)
