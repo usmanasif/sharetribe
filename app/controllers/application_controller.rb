@@ -257,6 +257,7 @@ class ApplicationController < ActionController::Base
 
   # Before filter to get the current community
   def fetch_community
+    puts '*'*50 , 'fetch_community'
     @current_community = ApplicationController.find_community(community_identifiers)
     m_community = Maybe(@current_community)
 
@@ -573,6 +574,7 @@ class ApplicationController < ActionController::Base
   end
 
   def check_auth_token
+    puts '*'*50 , 'check_auth_token'
     user_to_log_in = UserService::API::AuthTokens::use_token_for_login(params[:auth])
     person = Person.find(user_to_log_in[:id]) if user_to_log_in
 
