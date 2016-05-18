@@ -273,6 +273,7 @@ class ApplicationController < ActionController::Base
     # 1. Community is nil because it was not found
     # 2. Community is nil beucase fetch_community filter was skipped
     @community_search_status = @current_community ? :found : :not_found
+    puts @community_search_status , "*"*50 , @current_community 
   end
 
   def community_search_status
