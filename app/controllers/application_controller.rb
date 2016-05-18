@@ -561,6 +561,7 @@ class ApplicationController < ActionController::Base
   end
 
   def check_http_auth
+    puts '*'*50 , 'check_http_auth'
     return true unless APP_CONFIG.use_http_auth.to_s.downcase == 'true'
     if authenticate_with_http_basic { |u, p| u == APP_CONFIG.http_auth_username && p == APP_CONFIG.http_auth_password }
       true
