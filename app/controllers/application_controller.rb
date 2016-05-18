@@ -273,7 +273,6 @@ class ApplicationController < ActionController::Base
     # 1. Community is nil because it was not found
     # 2. Community is nil beucase fetch_community filter was skipped
     @community_search_status = @current_community ? :found : :not_found
-    puts @community_search_status , "*"*50 , @current_community 
   end
 
   def community_search_status
@@ -376,6 +375,7 @@ class ApplicationController < ActionController::Base
 
   def fetch_community_membership
     if @current_user
+      puts @current_user , "*"*50 , @current_community 
       @current_community_membership = CommunityMembership.where(person_id: @current_user.id, community_id: @current_community.id, status: "accepted").first
       if (@current_community_membership && !date_equals?(@current_community_membership.last_page_load_date, Date.today))
         Delayed::Job.enqueue(PageLoadedJob.new(@current_community_membership.id, request.host))
