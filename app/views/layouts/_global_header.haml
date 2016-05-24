@@ -12,9 +12,6 @@
       - unread_count = MarketplaceService::Inbox::Query.notification_count(user.id, @current_community.id)
 
       .header-right
-        = render :partial => "layouts/header_anchors", locals: {user: user}
-        = render :partial => "layouts/header_user_menu", locals: {unread_count: unread_count, user: user}
-
       = render :partial => "layouts/header_right_visible_tablet", locals: {unread_count: unread_count, user: user}
 
     - with_available_locales do |locales|
@@ -33,15 +30,6 @@
       .header-right
         = link_to login_path, class: "header-text-link header-hover", id: "header-login-link" do
           = t("header.login")
-
-    .header-left.hidden-tablet
-      .header-menu-container.toggle.hidden{data: {toggle: '#header-menu-toggle-menu', 'toggle-position' => 'absolute'}}
-        #header-menu-mobile-anchor.header-menu-toggle-container.toggle-header-container
-          = icon_tag("rows", ["header-menu-icon"])
-          %span.visible-tablet-inline
-            = t("header.menu")
-
-    = render :partial => "layouts/header_menu"
 
     -#
       If necessary, the buttons will overlap with the logo. Buttons should be on top, that's

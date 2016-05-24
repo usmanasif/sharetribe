@@ -28,6 +28,8 @@ class ListingsController < ApplicationController
 
   before_filter :is_authorized_to_post, :only => [ :new, :create ]
 
+  layout "index", only: [:show]
+
   def index
     @selected_tribe_navi_tab = "home"
 
@@ -167,6 +169,8 @@ class ListingsController < ApplicationController
   end
 
   def show
+    @categories = @current_community.categories.includes(:children)
+    @main_categories = @categories.select { |c| c.parent_id == nil }
     @selected_tribe_navi_tab = "home"
 
     @current_image = if params[:image]

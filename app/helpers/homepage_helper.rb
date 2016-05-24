@@ -23,4 +23,12 @@ module HomepageHelper
     precision = (distance < 1) ? 1 : 2
     (distance < 0.1) ? "< #{number_with_delimiter(0.1, locale: locale)}" : number_with_precision(distance, precision: precision, significant: true, locale: locale)
   end
-end
+
+  def get_imageListing listing_id
+    Listing.find(listing_id).listing_images
+  end
+
+  def set_path listing_id
+    Listing.find listing_id    
+  end
+end 

@@ -39,6 +39,7 @@ class ApplicationController < ActionController::Base
     :ensure_consent_given,
     :ensure_user_belongs_to_community,
     :can_access_only_organizations_communities
+    :populate_categories
 
   # This updates translation files from WTI on every page load. Only useful in translation test servers.
   before_filter :fetch_translations if APP_CONFIG.update_translations_on_every_page_load == "true"
@@ -52,6 +53,11 @@ class ApplicationController < ActionController::Base
   helper_method :root, :logged_in?, :current_user?
 
   attr_reader :current_user
+
+  def populate_categories
+    @categories = @current_community.categories.includes(:children)
+    @main_categories = @categories.select { |c| c.parent_id == nil }  
+  end
 
   def redirect_removed_locale
     if params[:locale] && Kassi::Application.config.REMOVED_LOCALES.include?(params[:locale])

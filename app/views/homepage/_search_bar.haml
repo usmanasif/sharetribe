@@ -1,5 +1,11 @@
 .search-form-input.search-form-text-field
   = text_field_tag "q", params[:q], :placeholder => (@community_customization && @community_customization.search_placeholder) || t("homepage.index.what_do_you_need")
+
+.search-form-input
+  = select_tag(:school_or_org, options_from_collection_for_select(@main_categories, "id","url") , 
+  {:class => 'form-control'}) 
+  / = select 'search', 'categories', @main_categories.map {|q| [q.display_name(I18n.locale) , q.id ],  }
+  
 .search-form-input
   %button.action-button#search-button{type: 'submit'}
     = icon_tag("search", ["icon-part"])
