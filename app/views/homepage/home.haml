@@ -75,8 +75,8 @@
               .col-md-12.col-sm-12.col-xs-12
                 .row
                   .padding-left-0.col-md-9.col-sm-9.col-xs-9
-                    %a.title{:href => "#"} Start It Up
-                    %p Check out these easier-to-ride motorcycles, like a 2004 Honda Rebel, a red Yamaha Virago from 1993, or a 1977 Honda CB—plus a Triumph Bonneville from 1979.
+                    %a.title{:href => listing_path(set_path(listing.id)) } #{listing.title}
+                    %p #{ listing.description}
                   .padding-right-0.col-md-3.col-sm-3.col-xs-3
                     %ul.details
                       %li 17 Time
@@ -86,4 +86,4 @@
                         
 / - @listings.each do |listing|
 /   = render :partial => "layouts/grid_item_listing_image", :locals => {:listing => listing, :modifier_class => ""}
-/   = get_imageListing(listing.id)
+/   = listing.inspect

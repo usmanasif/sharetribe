@@ -540,7 +540,7 @@ select {
     text-overflow: ellipsis;
     color: #333;
     overflow: hidden;
-    font-size: 26px;
+    font-size: 18px;
     line-height: 1.5em;
     margin: 10px 0 10px;
 }
