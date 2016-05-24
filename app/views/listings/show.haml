@@ -23,12 +23,6 @@
         .single_head      
           %h1
             %span#listing-title.listing-title= @listing.title
-          .listing-price
-            %span.listing-price-amount
-              = humanized_money_with_symbol(@listing.price).upcase
-            - with_quantity_and_vat_text(@current_community, @listing) do |text|
-              %span.listing-price-quantity
-                = text 
         .row
           .col-md-8.col-sm-8.col-xs-8
             .row
@@ -55,8 +49,12 @@
                     .col-md-3.col-sm-3.col-xs-3.p-0.text-right
                       %span Price:
                     .col-md-4.col-sm-4.col-xs-4
-                      %strong AU $1.36
-                      %span.price-red Approximately US $0.98
+                      .listing-price
+                        %span.listing-price-amount
+                          = humanized_money_with_symbol(@listing.price).upcase
+                        - with_quantity_and_vat_text(@current_community, @listing) do |text|
+                          %span.listing-price-quantity
+                            = text
                       %em 608 watching
                     .col-md-5.col-sm-5.col-xs-5
                       .add-button-area
@@ -69,7 +67,7 @@
                     %span Shipping:
                   .col-md-9.col-sm-9.col-xs-9
                     %p
-                      May not ship to Pakistan - Read item description or contact seller for shipping options. | See details Item location: Schenectady, New York, United States Ships to: United States and many other countries | See details
+                      May not ship to USA - Read item description or contact seller for shipping options. 
                 %li
                   .col-md-3.col-sm-3.col-xs-3.p-0.text-right
                     %span Delivery:
@@ -79,55 +77,55 @@
           .col-md-4.col-sm-4.col-xs-4
             %img.single_prodect-img.img-responsive{:src =>  asset_path('index/single_prodect.jpg')}
               %img.img-responsive{:src => asset_path('index/single_prodect.jpg')}
-.container
-  .row
-    .description-block.col-md-12.col-sm-12.col-xs-12
-      .row
-        .col-md-12
-          %div
-            / Nav tabs
-            %ul.nav.nav-tabs{:role => "tablist"}
-              %li.active{:role => "presentation"}
-                %a{"aria-controls" => "home", "data-toggle" => "tab", :href => "#home", :role => "tab"} Most Helpful
-              %li{:role => "presentation"}
-                %a{"aria-controls" => "profile", "data-toggle" => "tab", :href => "#profile", :role => "tab"} Most Reecent
-            / Tab panes
-            .tab-content
-              #home.tab-pane.active{:role => "tabpanel"}
-                .reviews-blocks
-                  .reviews-holder
-                    %h3 “Recommend this brush to all of my patients!”
-                    %ul.rating-list
-                      %li
-                        %input#input-2a.rating{"data-glyphicon" => "false", "data-max" => "5", "data-min" => "0", "data-stars" => "5", "data-step" => "1"}
-                      %li
-                        %span Manufactured by.
-                        %strong Dr. Feelgood
-                    %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                .reviews-blocks
-                  .reviews-holder
-                    %h3 “Recommend this brush to all of my patients!”
-                    %ul.rating-list
-                      %li
-                        %input#input-2a.rating{"data-glyphicon" => "false", "data-max" => "5", "data-min" => "0", "data-stars" => "5", "data-step" => "1"}
-                      %li
-                        %span Manufactured by.
-                        %strong Dr. Feelgood
-                    %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                .reviews-blocks
-                  .reviews-holder
-                    %h3 “Recommend this brush to all of my patients!”
-                    %ul.rating-list
-                      %li
-                        %input#input-2a.rating{"data-glyphicon" => "false", "data-max" => "5", "data-min" => "0", "data-stars" => "5", "data-step" => "1"}
-                      %li
-                        %span Manufactured by.
-                        %strong Dr. Feelgood
-                    %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-              #profile.tab-pane{:role => "tabpanel"}
-                %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+/ .container
+/   .row
+/     .description-block.col-md-12.col-sm-12.col-xs-12
+/       .row
+/         .col-md-12
+/           %div
+/             / Nav tabs
+/             %ul.nav.nav-tabs{:role => "tablist"}
+/               %li.active{:role => "presentation"}
+/                 %a{"aria-controls" => "home", "data-toggle" => "tab", :href => "#home", :role => "tab"} Most Helpful
+/               %li{:role => "presentation"}
+/                 %a{"aria-controls" => "profile", "data-toggle" => "tab", :href => "#profile", :role => "tab"} Most Reecent
+/             / Tab panes
+/             .tab-content
+/               #home.tab-pane.active{:role => "tabpanel"}
+/                 .reviews-blocks
+/                   .reviews-holder
+/                     %h3 “Recommend this brush to all of my patients!”
+/                     %ul.rating-list
+/                       %li
+/                         %input#input-2a.rating{"data-glyphicon" => "false", "data-max" => "5", "data-min" => "0", "data-stars" => "5", "data-step" => "1"}
+/                       %li
+/                         %span Manufactured by.
+/                         %strong Dr. Feelgood
+/                     %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+/                 .reviews-blocks
+/                   .reviews-holder
+/                     %h3 “Recommend this brush to all of my patients!”
+/                     %ul.rating-list
+/                       %li
+/                         %input#input-2a.rating{"data-glyphicon" => "false", "data-max" => "5", "data-min" => "0", "data-stars" => "5", "data-step" => "1"}
+/                       %li
+/                         %span Manufactured by.
+/                         %strong Dr. Feelgood
+/                     %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+/                 .reviews-blocks
+/                   .reviews-holder
+/                     %h3 “Recommend this brush to all of my patients!”
+/                     %ul.rating-list
+/                       %li
+/                         %input#input-2a.rating{"data-glyphicon" => "false", "data-max" => "5", "data-min" => "0", "data-stars" => "5", "data-step" => "1"}
+/                       %li
+/                         %span Manufactured by.
+/                         %strong Dr. Feelgood
+/                     %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+/               #profile.tab-pane{:role => "tabpanel"}
+/                 %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-%img  => assets_path(@listing.listing_images.first.image.url(:big))
+/ %img  => assets_path(@listing.listing_images.first.image.url(:big))
 
 
 
