@@ -31,22 +31,25 @@
                   .col-md-3.col-sm-3.col-xs-3.p-0.text-right
                     %span Item condition:
                   .col-md-9.col-sm-9.col-xs-9
-                    %strong New with tags
+                    / %strong New with tags
                 %li
                   .col-md-3.col-sm-3.col-xs-3.p-0.text-right
                     %span Design:
                   .col-md-9.col-sm-9.col-xs-9
-                    %strong New with tags
+                    / %strong New with tags
                 %li
                   .col-md-3.col-sm-3.col-xs-3.p-0.text-right
                     %span Qty:
                   .col-md-9.col-sm-9.col-xs-9
                     .qty
-                      %input.form-control{:type => "text"}
-                    %span.available-info More than 10 available
+                    /   %input.form-control{:type => "text"}
+                    / %span.available-info More than 10 available
                 %li
                   .price-area
-                    .col-md-3.col-sm-3.col-xs-3.p-0.text-right
+                    .col-md-4.col-sm-4.col-xs-4
+                      #listing-message-links
+                        = render :partial => "listing_actions", locals: { form_path: form_path, payment_gateway: payment_gateway, delivery_opts: delivery_opts, process: process, listing_unit_type: listing_unit_type, country_code: country_code }
+                    .col-md-3.col-sm-3.col-xs-3
                       %span Price:
                     .col-md-4.col-sm-4.col-xs-4
                       .listing-price
@@ -55,13 +58,7 @@
                         - with_quantity_and_vat_text(@current_community, @listing) do |text|
                           %span.listing-price-quantity
                             = text
-                      %em 608 watching
-                    .col-md-5.col-sm-5.col-xs-5
-                      .add-button-area
-                        %button.book-button.btn.add-btn.btn-default
-                          .content
-                            = action_button_label(@listing)
-                        / %button.add-btn.btn.btn-default{:type => "button"} Add to cart
+                      / %em 608 watching
                 %li
                   .col-md-3.col-sm-3.col-xs-3.p-0.text-right
                     %span Shipping:
@@ -77,55 +74,33 @@
           .col-md-4.col-sm-4.col-xs-4
             %img.single_prodect-img.img-responsive{:src =>  asset_path('index/single_prodect.jpg')}
               %img.img-responsive{:src => asset_path('index/single_prodect.jpg')}
-/ .container
-/   .row
-/     .description-block.col-md-12.col-sm-12.col-xs-12
-/       .row
-/         .col-md-12
-/           %div
-/             / Nav tabs
-/             %ul.nav.nav-tabs{:role => "tablist"}
-/               %li.active{:role => "presentation"}
-/                 %a{"aria-controls" => "home", "data-toggle" => "tab", :href => "#home", :role => "tab"} Most Helpful
-/               %li{:role => "presentation"}
-/                 %a{"aria-controls" => "profile", "data-toggle" => "tab", :href => "#profile", :role => "tab"} Most Reecent
-/             / Tab panes
-/             .tab-content
-/               #home.tab-pane.active{:role => "tabpanel"}
-/                 .reviews-blocks
-/                   .reviews-holder
-/                     %h3 “Recommend this brush to all of my patients!”
-/                     %ul.rating-list
-/                       %li
-/                         %input#input-2a.rating{"data-glyphicon" => "false", "data-max" => "5", "data-min" => "0", "data-stars" => "5", "data-step" => "1"}
-/                       %li
-/                         %span Manufactured by.
-/                         %strong Dr. Feelgood
-/                     %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-/                 .reviews-blocks
-/                   .reviews-holder
-/                     %h3 “Recommend this brush to all of my patients!”
-/                     %ul.rating-list
-/                       %li
-/                         %input#input-2a.rating{"data-glyphicon" => "false", "data-max" => "5", "data-min" => "0", "data-stars" => "5", "data-step" => "1"}
-/                       %li
-/                         %span Manufactured by.
-/                         %strong Dr. Feelgood
-/                     %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-/                 .reviews-blocks
-/                   .reviews-holder
-/                     %h3 “Recommend this brush to all of my patients!”
-/                     %ul.rating-list
-/                       %li
-/                         %input#input-2a.rating{"data-glyphicon" => "false", "data-max" => "5", "data-min" => "0", "data-stars" => "5", "data-step" => "1"}
-/                       %li
-/                         %span Manufactured by.
-/                         %strong Dr. Feelgood
-/                     %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-/               #profile.tab-pane{:role => "tabpanel"}
-/                 %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+.container
+  .row
+    .description-block.col-md-12.col-sm-12.col-xs-12
+      .row
+        .col-md-12
+          %div
+            / Nav tabs
+            %ul.nav.nav-tabs{:role => "tablist"}
+              %li.active{:role => "presentation"}
+                %a{"aria-controls" => "home", "data-toggle" => "tab", :href => "#home", :role => "tab"} Description
+              %li{:role => "presentation"}
+                %a{"aria-controls" => "profile", "data-toggle" => "tab", :href => "#profile", :role => "tab"} Most Recent Reviews
+            / Tab panes
+            .tab-content
+              #home.tab-pane.active{:role => "tabpanel"}
+                .reviews-blocks
+                  .reviews-holder
+                    - if @listing.description && !@listing.description.blank?
+                      - text_with_line_breaks do
+                        = @listing.description
+                      - if(youtube_link_ids.present?)
+                        - youtube_link_ids.each do |youtube_id|
+                          .listing-description-youtube-wrapper
+                            %iframe.listing-description-youtube-iframe{ title: t("listings.show.youtube_video_player"), width: 640, height:390, src: "//www.youtube.com/embed/#{ youtube_id }", frameborder: 0, allowfullscreen: true}
+              #profile.tab-pane{:role => "tabpanel"}
+                %p None
 
-/ %img  => assets_path(@listing.listing_images.first.image.url(:big))
 
 
 

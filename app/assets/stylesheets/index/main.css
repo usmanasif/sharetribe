@@ -1169,7 +1169,10 @@ select {
 }
 
 
-
+.listing-view-admin-link {
+    float: left;
+    width: 33.33%;
+}
 
 
 
