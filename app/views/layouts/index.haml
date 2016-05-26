@@ -119,7 +119,7 @@
     .container
       .header-content
         .col-md-2.col-sm-2.col-xs-12.header-p-5
-          %a.logo{:href => "#"} Vendor Advisors
+          %a.logo{:href => root_path } Vendor Advisors
         .col-md-1.col-sm-1.col-xs-1.header-p-5
           .dropdown.dorpdown-shop
             %button#dropdownMenu1.btn.btn-default.dropdown-toggle.btn-shop{"aria-expanded" => "true", "aria-haspopup" => "true", "data-toggle" => "dropdown", :type => "button"}
@@ -137,7 +137,7 @@
                           %a{:href => "#"} #{sub_category.display_name(I18n.locale)}
 
         .col-md-8.col-sm-8.col-xs-8.header-p-5
-          %form.form-inline.search-form.search-result{:action => "#", :method => "get"}
+          %form.form-inline.search-form.search-result{:action => "#{homepage_index_path}" , :method => "get"}
             .input-group.col-sm-10
               %input.form-control{:name => "q", :placeholder => "Search", :type => "text", :value => ""}
                 .input-group-btn
