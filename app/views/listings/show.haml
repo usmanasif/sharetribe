@@ -46,9 +46,11 @@
                     / %span.available-info More than 10 available
                 %li
                   .price-area
-                    .col-md-3.col-sm-3.col-xs-3
-                      %span Price:
+                    .col-md-1.col-sm-1.col-xs-1
+                      %i.fa.fa-money{"aria-hidden" => "true"}
                     .col-md-4.col-sm-4.col-xs-4
+                      %span Price:
+                    .col-md-7.col-sm-7.col-xs-7
                       .listing-price
                         %span.listing-price-amount
                           = humanized_money_with_symbol(@listing.price).upcase
@@ -56,9 +58,9 @@
                           %span.listing-price-quantity
                             = text
                       / %em 608 watching
-                    .col-bg-12.col-md-12.col-sm-12
+                    .col-md-12.col-sm-12.col-xs-12
                       #listing-message-links
-                        = render :partial => "listing_actions", locals: { form_path: form_path, payment_gateway: payment_gateway, delivery_opts: delivery_opts, process: process, listing_unit_type: listing_unit_type, country_code: country_code } 
+                        = render :partial => "listing_actions", locals: { form_path: form_path, payment_gateway: payment_gateway, delivery_opts: delivery_opts, process: process, listing_unit_type: listing_unit_type, country_code: country_code }
                 %li
                   .col-md-3.col-sm-3.col-xs-3.p-0.text-right
                     %span Shipping:

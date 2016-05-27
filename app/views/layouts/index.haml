@@ -143,7 +143,7 @@
                 .input-group-btn
                   .search-form-input.categorices-select.btn.btn-default.dropdown-toggle 
                     %span.caret.caret-icon
-                    = select_tag(:category,  options_from_collection_for_select(@main_categories, "url","url") , class: 'categor-dropdown' , include_blank: "All Categories") 
+                    = select_tag(:category,  options_from_collection_for_select(@main_categories, :url,:url) , class: 'categor-dropdown' , include_blank: "All Categories") 
                   / /btn-group
             %button.input-group.btn.btn-primary.col-sm-2{:type => "submit"} Search
         .col-md-1.col-sm-1.col-xs-1.header-p-0

@@ -3,7 +3,7 @@
 - is_authorized = is_author || is_marketplace_admin
 
 - if @listing.closed?
-  .listing-view-admin-links.col-md-4.col-sm-4.col-xs-4
+  .listing-view-admin-links
     .listing-view-admin-link
       .icon-with-text-container
         = icon_tag("lock", ["icon-part"])
@@ -15,7 +15,7 @@
             = icon_tag("unlock", ["icon-part"])
             .text-part= t("listings.edit_links.reopen_listing")
 - else
-
+  
   - if is_author
     = render partial: "delivery_opts", locals: { delivery_opts: delivery_opts, is_author: is_author }
   - else
@@ -112,23 +112,31 @@
   - if is_authorized
     .listing-view-admin-links
       .listing-view-admin-link
-        %a.icon-with-text-container{href: edit_listing_path(@listing)}
-          = icon_tag("edit", ["icon-part"])
-          .text-part= t("listings.edit_links.edit_listing")
+        %a.icon-with-text-container.row{href: edit_listing_path(@listing)}
+          .col-md-1.col-sm-1.col-xs-1
+            = icon_tag("edit", ["icon-part"])
+          .col-md-11.col-sm-11.col-xs-11
+            .text-part= t("listings.edit_links.edit_listing")
       .listing-view-admin-link
-        %a.icon-with-text-container{href: close_person_listing_path(@current_user, @listing), data: { method: "put", remote: "true"}}
-          = icon_tag("lock", ["icon-part"])
-          .text-part= t("listings.edit_links.close_listing")
+        %a.icon-with-text-container.row{href: close_person_listing_path(@current_user, @listing), data: { method: "put", remote: "true"}}
+          .col-md-1.col-sm-1.col-xs-1
+            = icon_tag("lock", ["icon-part"])
+          .col-md-11.col-sm-11.col-xs-11
+            .text-part= t("listings.edit_links.close_listing")
 
       - if is_marketplace_admin
         .listing-view-admin-link
           = link_to move_to_top_person_listing_path(@current_user, @listing), data: { method: "put" } do
-            .icon-with-text-container
-              = icon_tag("star", ["icon-part"])
-              .text-part= t("listings.edit_links.move_to_top")
+            .icon-with-text-container.row
+              .col-md-1.col-sm-1.col-xs-1
+                = icon_tag("star", ["icon-part"])
+              .col-md-11.col-sm-11.col-xs-11
+                .text-part= t("listings.edit_links.move_to_top")
 
         .listing-view-admin-link
           = link_to show_in_updates_email_person_listing_path(@current_user, @listing), data: { method: "put", remote: "true" }, :id => "add-to-updates-email"  do
-            .icon-with-text-container
-              = icon_tag("mail", ["icon-part"])
-              .text-part#add-to-updates-email-text{data: {:"action-loading" => t("listings.edit_links.show_in_updates_email_loading"), :"action-error" => t("listings.edit_links.show_in_updates_email_error"), :"action-success"=> t("listings.edit_links.show_in_updates_email_success")}}= t("listings.edit_links.show_in_updates_email")
+            .icon-with-text-container.row
+              .col-md-1.col-sm-1.col-xs-1
+                = icon_tag("mail", ["icon-part"])
+              .col-md-11.col-sm-11.col-xs-11
+                .text-part#add-to-updates-email-text{data: {:"action-loading" => t("listings.edit_links.show_in_updates_email_loading"), :"action-error" => t("listings.edit_links.show_in_updates_email_error"), :"action-success"=> t("listings.edit_links.show_in_updates_email_success")}}= t("listings.edit_links.show_in_updates_email")
