@@ -139,3 +139,63 @@
 [Thu May 12 06:49:32.405 2016] 0.000 sec [ext2/1/ext 0 (0,20)] [custom_field_value_core]
 [Thu May 12 13:53:14.394 2016] 0.001 sec [ext2/3/ext 20 (0,24)] [listing_core`, `listing_delta]
 [Thu May 12 13:53:20.178 2016] 0.000 sec [ext2/3/ext 33 (0,24)] [listing_core`, `listing_delta]
+[Thu May 19 13:23:01.465 2016] 0.008 sec [ext2/3/ext 4 (0,24)] [listing_core`, `listing_delta]
+[Thu May 19 13:23:05.023 2016] 0.000 sec [ext2/3/ext 4 (0,24)] [listing_core`, `listing_delta]
+[Thu May 19 13:23:06.394 2016] 0.000 sec [ext2/3/ext 0 (0,24)] [listing_core`, `listing_delta]
+[Thu May 19 13:23:08.176 2016] 0.000 sec [ext2/3/ext 0 (0,24)] [listing_core`, `listing_delta]
+[Thu May 19 13:23:10.080 2016] 0.000 sec [ext2/3/ext 0 (0,24)] [listing_core`, `listing_delta]
+[Thu May 19 13:23:11.224 2016] 0.000 sec [ext2/3/ext 1 (0,24)] [listing_core`, `listing_delta]
+[Thu May 19 13:23:12.517 2016] 0.000 sec [ext2/3/ext 4 (0,24)] [listing_core`, `listing_delta]
+[Thu May 19 13:23:13.695 2016] 0.000 sec [ext2/3/ext 0 (0,24)] [listing_core`, `listing_delta]
+[Thu May 19 13:32:17.991 2016] 0.000 sec [ext2/3/ext 4 (0,24)] [listing_core`, `listing_delta]
+[Thu May 19 16:42:08.665 2016] 0.017 sec [ext2/3/ext 0 (0,24)] [listing_core`, `listing_delta]
+[Thu May 19 16:42:15.183 2016] 0.000 sec [ext2/3/ext 4 (0,24)] [listing_core`, `listing_delta]
+[Fri May 20 10:17:28.540 2016] 0.026 sec [ext2/3/ext 4 (0,24)] [listing_core`, `listing_delta]
+[Fri May 20 10:18:41.830 2016] 0.000 sec [ext2/3/ext 4 (0,24)] [listing_core`, `listing_delta]
+[Fri May 20 11:43:49.727 2016] 0.000 sec [ext2/3/ext 4 (0,150)] [listing_core`, `listing_delta]
+[Fri May 20 14:12:08.479 2016] 0.003 sec [ext2/3/ext 0 (0,150)] [listing_core`, `listing_delta]
+[Fri May 20 14:41:40.245 2016] 0.000 sec [ext2/3/ext 4 (0,24)] [listing_core`, `listing_delta]
+[Fri May 20 14:47:25.507 2016] 0.000 sec [ext2/3/ext 0 (0,24)] [listing_core`, `listing_delta]
+[Mon May 23 12:08:13.645 2016] 0.020 sec [ext2/2/ext 0 (0,24)] [listing_core`, `listing_delta] *a*
+[Tue May 24 11:01:14.748 2016] 0.012 sec [ext2/3/ext 4 (0,24)] [listing_core`, `listing_delta]
+[Tue May 24 11:01:54.237 2016] 0.000 sec [ext2/3/ext 4 (0,24)] [listing_core`, `listing_delta]
+[Tue May 24 11:02:49.530 2016] 0.000 sec [ext2/3/ext 4 (0,24)] [listing_core`, `listing_delta]
+[Tue May 24 11:09:35.720 2016] 0.014 sec [ext2/3/ext 0 (0,24)] [listing_core`, `listing_delta] *a*
+[Tue May 24 11:12:01.909 2016] 0.000 sec [ext2/3/ext 0 (0,24)] [listing_core`, `listing_delta] *a*
+[Tue May 24 12:28:41.205 2016] 0.019 sec [ext2/3/ext 0 (0,24)] [listing_core`, `listing_delta] *pink*
+[Tue May 24 12:28:48.727 2016] 0.027 sec [ext2/2/ext 2 (0,24)] [listing_core`, `listing_delta] *pink*
+[Tue May 24 13:12:57.491 2016] 0.000 sec [ext2/3/ext 0 (0,24)] [listing_core`, `listing_delta] *pink*
+[Tue May 24 13:13:01.786 2016] 0.000 sec [ext2/2/ext 2 (0,24)] [listing_core`, `listing_delta] *pink*
+[Tue May 24 13:13:11.040 2016] 0.000 sec [ext2/2/ext 2 (0,24)] [listing_core`, `listing_delta] *pink*
+[Tue May 24 13:16:30.704 2016] 0.000 sec [ext2/2/ext 2 (0,24)] [listing_core`, `listing_delta] *pink*
+[Tue May 24 13:16:47.727 2016] 0.000 sec [ext2/2/ext 2 (0,24)] [listing_core`, `listing_delta] *pink*
+[Tue May 24 13:32:01.970 2016] 0.000 sec [ext2/2/ext 2 (0,24)] [listing_core`, `listing_delta] *pink*
+[Tue May 24 15:42:31.433 2016] 0.000 sec [ext2/2/ext 2 (0,24)] [listing_core`, `listing_delta] *pink*
+[Tue May 24 16:06:41.742 2016] 0.000 sec [ext2/2/ext 0 (0,24)] [listing_core`, `listing_delta] *a*
+[Tue May 24 16:06:50.783 2016] 0.000 sec [ext2/2/ext 2 (0,24)] [listing_core`, `listing_delta] *pink*
+[Tue May 24 16:10:29.414 2016] 0.000 sec [ext2/2/ext 2 (0,24)] [listing_core`, `listing_delta] *pink*
+[Tue May 24 16:11:19.290 2016] 0.000 sec [ext2/2/ext 2 (0,24)] [listing_core`, `listing_delta] *pink*
+[Tue May 24 16:11:34.474 2016] 0.000 sec [ext2/2/ext 2 (0,24)] [listing_core`, `listing_delta] *pink*
+[Tue May 24 20:09:50.152 2016] 0.012 sec [ext2/1/ext 0 (0,20)] [listing_core]
+[Tue May 24 20:10:29.223 2016] 0.000 sec [ext2/1/ext 0 (0,20)] [listing_core]
+[Tue May 24 20:10:29.314 2016] 0.000 sec [ext2/1/ext 0 (0,20)] [listing_core]
+[Wed May 25 16:13:01.896 2016] 0.066 sec [ext2/1/ext 0 (0,20)] [listing_core]
+[Wed May 25 16:31:44.754 2016] 0.000 sec [ext2/1/ext 0 (0,20)] [listing_core]
+[Thu May 26 14:35:28.697 2016] 0.068 sec [ext2/2/ext 3 (0,24)] [listing_core`, `listing_delta] *a*
+[Thu May 26 15:01:33.230 2016] 0.046 sec [ext2/2/ext 3 (0,24)] [listing_core`, `listing_delta] *a*
+[Thu May 26 15:03:39.096 2016] 0.000 sec [ext2/2/ext 3 (0,24)] [listing_core`, `listing_delta] *a*
+[Thu May 26 15:04:57.838 2016] 0.000 sec [ext2/2/ext 3 (0,24)] [listing_core`, `listing_delta] *a*
+[Thu May 26 15:05:09.151 2016] 0.000 sec [ext2/2/ext 3 (0,24)] [listing_core`, `listing_delta] *a*
+[Thu May 26 15:05:14.655 2016] 0.000 sec [ext2/2/ext 3 (0,24)] [listing_core`, `listing_delta] *a*
+[Thu May 26 15:05:58.489 2016] 0.000 sec [ext2/2/ext 3 (0,24)] [listing_core`, `listing_delta] *a*
+[Thu May 26 15:06:18.307 2016] 0.000 sec [ext2/2/ext 3 (0,24)] [listing_core`, `listing_delta] *a*
+[Thu May 26 15:06:33.844 2016] 0.000 sec [ext2/2/ext 0 (0,24)] [listing_core`, `listing_delta] *youtube*
+[Thu May 26 15:06:38.735 2016] 0.000 sec [ext2/2/ext 0 (0,24)] [listing_core`, `listing_delta] *yo*
+[Thu May 26 15:06:43.630 2016] 0.030 sec [ext2/2/ext 1 (0,24)] [listing_core`, `listing_delta] *gene*
+[Thu May 26 15:06:51.528 2016] 0.000 sec [ext2/2/ext 3 (0,24)] [listing_core`, `listing_delta] *a*
+[Thu May 26 15:06:56.359 2016] 0.008 sec [ext2/2/ext 2 (0,24)] [listing_core`, `listing_delta] *pink*
+[Thu May 26 15:07:57.409 2016] 0.000 sec [ext2/2/ext 2 (0,24)] [listing_core`, `listing_delta] *pink*
+[Thu May 26 15:09:01.623 2016] 0.000 sec [ext2/2/ext 2 (0,24)] [listing_core`, `listing_delta] *pink*
+[Fri May 27 13:09:43.577 2016] 0.039 sec [ext2/2/ext 3 (0,24)] [listing_core`, `listing_delta] *a*
+[Fri May 27 16:22:36.909 2016] 0.007 sec [ext2/1/ext 0 (0,20)] [listing_core]
+[Fri May 27 16:22:37.022 2016] 0.000 sec [ext2/1/ext 0 (0,20)] [listing_core]

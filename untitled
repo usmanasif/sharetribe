@@ -1,0 +1,18 @@
+ .slider-block.col-md-5.col-sm-5.col-xs-5
+        .slideshow
+          .slider-holder
+            .slideset
+              -@listing.listing_images.each_with_index do |ls_img , i|
+                .slide
+                  %img.img-responsive{:alt => "item image", :src => asset_path(ls_img.image.url(:medium))}
+          .static-block
+            %a.btn-prev{:href => "#"}
+              %i.fa.fa-5x.fa-angle-left
+            %a.btn-next{:href => "#"}
+              %i.fa.fa-5x.fa-angle-right
+            .pagination
+              %ul
+                -@listing.listing_images.each_with_index do |ls_img , i|
+                  %li
+                    %a{:href => "#"}
+                      %img{:alt => "item image", :src => asset_path(ls_img.image.url(:thumb))}
