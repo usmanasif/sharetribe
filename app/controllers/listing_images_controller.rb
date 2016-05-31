@@ -48,6 +48,7 @@ class ListingImagesController < ApplicationController
   # Create image from uploaded file
   def add_from_file
     listing_image_params = params.require(:listing_image).permit(:image)
+    puts "*"*50 , listing_image_params 
     add_image(params[:listing_id], listing_image_params, nil)
   end
 

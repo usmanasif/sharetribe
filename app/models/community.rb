@@ -251,6 +251,7 @@ class Community < ActiveRecord::Base
                                                       "image/x-icon",
                                                       "image/vnd.microsoft.icon"]
 
+  
   # process_in_background definitions have to be after
   # after all attachments: https://github.com/jrgifford/delayed_paperclip/issues/129
   process_in_background :logo

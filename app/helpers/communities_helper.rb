@@ -91,4 +91,8 @@ module CommunitiesHelper
     end
   end
 
+  def show_slider_image(listing_id)
+    return ListingImage.find(listing_id)
+  end
+
 end

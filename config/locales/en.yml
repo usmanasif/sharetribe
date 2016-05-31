@@ -53,6 +53,7 @@ en:
       edit_details:
         community_details: "Basic details"
         community_look_and_feel: Design
+        community_featured_slider: "Landing Page Slider"
         edit_community: "Basic details"
         enabled_languages: "Enabled languages"
         enabled_languages_description: "The set of languages available for users. The first one is used as default."

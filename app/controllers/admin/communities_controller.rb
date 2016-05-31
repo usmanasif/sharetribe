@@ -17,7 +17,7 @@ class Admin::CommunitiesController < ApplicationController
   end
 
   def edit_look_and_feel
-    @selected_left_navi_link = "tribe_look_and_feel"
+    @selected_left_navi_link = "tribe_look_and_feel"  
     @community = @current_community
     flash.now[:notice] = t("layouts.notifications.stylesheet_needs_recompiling") if @community.stylesheet_needs_recompile?
 
@@ -27,6 +27,62 @@ class Admin::CommunitiesController < ApplicationController
       Admin::OnboardingWizard.new(@current_community.id).setup_status)
 
     render "edit_look_and_feel", locals: onboarding_popup_locals
+  end
+
+  def edit_featured_slider
+    @selected_left_navi_link = "tribe_featured_slider"
+    @community = @current_community
+    @slider_images = get_slider_images
+    render 'edit_featured_slider'
+  end
+
+  def update_featured_slider
+    @selected_left_navi_link = "tribe_featured_slider"
+    @community = @current_community
+    slider_image_params = params.require(:community).permit(:image)
+    puts "*"*50 , 'params' , slider_image_params
+    listing_image = ListingImage.new(slider_image_params)
+    puts '*'*50 , "listing_image",listing_image.inspect
+    if listing_image.save
+     if Delayed::Job.enqueue(DownloadListingImageJob.new(listing_image.id, nil), priority: 1)
+       FeaturedSlider.create!(:listing_id => listing_image.id)
+     end
+    end
+    edit_featured_slider
+  end
+
+  def update_look_and_feel
+    @community = @current_community
+    @selected_left_navi_link = "tribe_look_and_feel"
+
+    params[:community][:custom_color1] = nil if params[:community][:custom_color1] == ""
+    params[:community][:custom_color2] = nil if params[:community][:custom_color2] == ""
+
+    permitted_params = [
+      :wide_logo, :logo,:cover_photo, :small_cover_photo, :favicon, :custom_color1,
+      :custom_color2, :default_browse_view, :name_display_type
+    ]
+    permitted_params << :custom_head_script
+    community_params = params.require(:community).permit(*permitted_params)
+    puts '*'*50 , "community_params" , community_params , "*"*50
+
+    puts "*&*"*50 , update(@current_community,
+           community_params.merge(stylesheet_needs_recompile: regenerate_css?(params, @current_community)),
+           edit_look_and_feel_admin_community_path(@current_community),
+           :edit_look_and_feel) { |community|
+      Delayed::Job.enqueue(CompileCustomStylesheetJob.new(community.id), priority: 3)
+
+      # Onboarding wizard step recording
+      state_changed = Admin::OnboardingWizard.new(community.id)
+        .update_from_event(:community_updated, community)
+      if state_changed
+        report_to_gtm({event: "km_record", km_event: "Onboarding cover photo uploaded"})
+
+        with_feature(:onboarding_redesign_v1) do
+          flash[:show_onboarding_popup] = true
+        end
+      end
+    }
   end
 
   def edit_text_instructions
@@ -226,39 +282,6 @@ class Admin::CommunitiesController < ApplicationController
     end
   end
 
-  def update_look_and_feel
-    @community = @current_community
-    @selected_left_navi_link = "tribe_look_and_feel"
-
-    params[:community][:custom_color1] = nil if params[:community][:custom_color1] == ""
-    params[:community][:custom_color2] = nil if params[:community][:custom_color2] == ""
-
-    permitted_params = [
-      :wide_logo, :logo,:cover_photo, :small_cover_photo, :favicon, :custom_color1,
-      :custom_color2, :default_browse_view, :name_display_type
-    ]
-    permitted_params << :custom_head_script
-    community_params = params.require(:community).permit(*permitted_params)
-
-    update(@current_community,
-           community_params.merge(stylesheet_needs_recompile: regenerate_css?(params, @current_community)),
-           edit_look_and_feel_admin_community_path(@current_community),
-           :edit_look_and_feel) { |community|
-      Delayed::Job.enqueue(CompileCustomStylesheetJob.new(community.id), priority: 3)
-
-      # Onboarding wizard step recording
-      state_changed = Admin::OnboardingWizard.new(community.id)
-        .update_from_event(:community_updated, community)
-      if state_changed
-        report_to_gtm({event: "km_record", km_event: "Onboarding cover photo uploaded"})
-
-        with_feature(:onboarding_redesign_v1) do
-          flash[:show_onboarding_popup] = true
-        end
-      end
-    }
-  end
-
   def update_social_media
     @community = @current_community
     @selected_left_navi_link = "social_media"
@@ -343,6 +366,10 @@ class Admin::CommunitiesController < ApplicationController
 
   private
 
+  def get_slider_images
+    FeaturedSlider.all
+  end
+
   def enqueue_status_sync!(address)
     Maybe(address)
       .reject { |addr| addr[:verification_status] == :verified }
@@ -364,6 +391,7 @@ class Admin::CommunitiesController < ApplicationController
   end
 
   def update(model, params, path, action, &block)
+    puts "&&"*50 , params
     if model.update_attributes(params)
       flash[:notice] = t("layouts.notifications.community_updated")
       block.call(model) if block_given? #on success, call optional block

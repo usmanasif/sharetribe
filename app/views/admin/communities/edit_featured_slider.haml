@@ -1,0 +1,33 @@
+- content_for :title_header do
+  %h1
+    = t("layouts.admin.admin")
+    = "-"
+    = t("admin.communities.edit_details.community_featured_slider")
+
+= render :partial => "admin/left_hand_navigation", :locals => { :links => admin_links_for(@current_community) }
+
+
+#new_news_item_form.left-navi-section
+  %h2 Edit marketplace "#{@community.name(I18n.locale)}" landing page slider
+  = form_for @community, :url => edit_featured_slider_admin_community_path(@community), :method => :put do |form|
+    .row
+      .col-12
+        = form.label :Upload_image_for_first_slider, :class => "input"
+        = form.file_field(:image, :class => "file_field")
+
+    .row
+      .col-12
+        = form.button t("admin.communities.edit_details.update_information"), :id => "edit_community_button", :class => "send_button"
+
+  -if @slider_images.present?
+    -@slider_images.each do |image|
+      - s_i = show_slider_image(image.listing_id)
+      %img{:alt => "Slider_image", :height => "150", :src => s_i.image.url(:original), :width => "250"}
+
+  / = form_for @community, :url => edit_featured_slider_admin_community_path(@community), :method => :put do |form|
+  /   -if @slider_images.present?
+  /     -@slider_images.each do |image|
+  /     - s_i = show_slider_image(image.listing_id)
+  /     = form.select_tag(:slider[image.id], options_for_select([ "Slider 1", "Slider 2" , "Inactive" ]))
+  /     %img{:alt => "Slider_image", :height => "150", :src => s_i.image.url(:original), :width => "250"}
+

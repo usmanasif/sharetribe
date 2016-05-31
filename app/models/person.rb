@@ -306,6 +306,7 @@ class Person < ActiveRecord::Base
   end
 
   def update_attributes(params)
+    puts "&&"*50 , params
     if params[:preferences]
       super(params)
     else

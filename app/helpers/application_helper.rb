@@ -430,6 +430,13 @@ module ApplicationHelper
       },
       {
         :topic => :configure,
+        :text => t("admin.communities.edit_details.community_featured_slider"),
+        :icon_class => "ss-paintroller",
+        :path => edit_featured_slider_admin_community_path(@current_community),
+        :name => "tribe_featured_slider"
+      },
+      {
+        :topic => :configure,
         :text => t("admin.communities.menu_links.menu_links"),
         :icon_class => icon_class("link"),
         :path => menu_links_admin_community_path(@current_community),

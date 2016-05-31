@@ -153,6 +153,8 @@ Kassi::Application.routes.draw do
           put :update_details, to: 'community_customizations#update_details'
           get :edit_look_and_feel
           put :edit_look_and_feel, to: 'communities#update_look_and_feel'
+          get :edit_featured_slider
+          put :edit_featured_slider, to: 'communities#update_featured_slider'
           get :edit_welcome_email
           post :create_sender_address
           get :check_email_status

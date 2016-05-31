@@ -263,7 +263,6 @@ class ApplicationController < ActionController::Base
 
   # Before filter to get the current community
   def fetch_community
-    puts '*'*50 , 'fetch_community'
     @current_community = ApplicationController.find_community(community_identifiers)
     m_community = Maybe(@current_community)
 
@@ -382,7 +381,6 @@ class ApplicationController < ActionController::Base
 
   def fetch_community_membership
     if @current_user
-      puts @current_user.inspect , "*"*50 , @current_community.inspect 
       @current_community_membership = CommunityMembership.where(person_id: @current_user.id, community_id: @current_community.id, status: "accepted").first
       if (@current_community_membership && !date_equals?(@current_community_membership.last_page_load_date, Date.today))
         Delayed::Job.enqueue(PageLoadedJob.new(@current_community_membership.id, request.host))
@@ -568,7 +566,6 @@ class ApplicationController < ActionController::Base
   end
 
   def check_http_auth
-    puts '*'*50 , 'check_http_auth'
     return true unless APP_CONFIG.use_http_auth.to_s.downcase == 'true'
     if authenticate_with_http_basic { |u, p| u == APP_CONFIG.http_auth_username && p == APP_CONFIG.http_auth_password }
       true
@@ -580,7 +577,6 @@ class ApplicationController < ActionController::Base
   end
 
   def check_auth_token
-    puts '*'*50 , 'check_auth_token' , params[:auth]
     user_to_log_in = UserService::API::AuthTokens::use_token_for_login(params[:auth])
     person = Person.find(user_to_log_in[:id]) if user_to_log_in
 
@@ -592,7 +588,6 @@ class ApplicationController < ActionController::Base
       path_without_auth_token = URLUtils.remove_query_param(request.fullpath, "auth")
       redirect_to path_without_auth_token
     end
-    puts '*'*50 , 'person' ,person.inspect
   end
 
   def feature_flags

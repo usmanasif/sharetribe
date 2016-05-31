@@ -9,8 +9,9 @@ class HomepageController < ApplicationController
   layout "index", :only => :home
 
   def home
-   @homepage = true
-
+    @homepage = true
+    @first_slider_images = FeaturedSlider.where :image_for => 1
+    @second_slider_images = FeaturedSlider.where :image_for => 2
     @view_type = HomepageController.selected_view_type(params[:view], @current_community.default_browse_view, APP_DEFAULT_VIEW_TYPE, VIEW_TYPES)
 
     @categories = @current_community.categories.includes(:children)
