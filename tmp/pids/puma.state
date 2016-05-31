@@ -1,4 +1,4 @@
 ---
-pid: 15020
+pid: 26782
 control_url: unix://tmp/sockets/pumactl.sock
-control_auth_token: 49564e5dbcf6d32b27663b65d9828ad
+control_auth_token: d844ce3d0ece00131fefafa04b28b
