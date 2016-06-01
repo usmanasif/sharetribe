@@ -33,6 +33,7 @@ class Admin::CommunitiesController < ApplicationController
     @selected_left_navi_link = "tribe_featured_slider"
     @community = @current_community
     @slider_images = get_slider_images
+    @states = [["Slider 1",1],["Slider 2", 2] ,["Inactive",0],["Delete", -1]]
     render 'edit_featured_slider'
   end
 
@@ -49,6 +50,19 @@ class Admin::CommunitiesController < ApplicationController
      end
     end
     edit_featured_slider
+  end
+
+  def modify_slider
+    img_id = params[:img_id].split('_')[1]
+    featured_slider = FeaturedSlider.find(img_id)
+    if params[:option_selected] == -1
+      featured_slider.destroy
+      render json:{deleted: false},status:200
+    else
+      featured_slider.image_for = params[:option_selected]
+      featured_slider.save!
+      render json:{deleted: true},status:200
+    end
   end
 
   def update_look_and_feel

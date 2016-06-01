@@ -12,4 +12,8 @@
 
 class FeaturedSlider < ActiveRecord::Base
 	belongs_to :listing
+
+  def image_status
+    self.image_for
+  end
 end
