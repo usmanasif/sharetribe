@@ -42,16 +42,14 @@ class Admin::CommunitiesController < ApplicationController
     @community = @current_community
     slider_image_params = params.require(:community).permit(:image)
     puts "*"*50 , 'params' , slider_image_params
-    listing_image = ListingImage.new(slider_image_params)
-    listing_image.image_downloaded = false
-    puts '*'*50 , "listing_image",listing_image.inspect
-    if listing_image.save
-     # if Delayed::Job.enqueue(DownloadListingImageJob.new(listing_image.id, nil), priority: 1)
-       FeaturedSlider.create!(:listing_id => listing_image.id)
-     # end
-    end
+    slider_image = FeaturedSlider.new(slider_image_params)
+    slider_image.image_for = 0
+    # puts '*'*50 , "listing_image",listing_image.inspect
+    slider_image.save
     edit_featured_slider
   end
+
+
 
   def modify_slider
     img_id = params[:img_id].split('_')[1]

@@ -14,10 +14,10 @@
               -@first_slider_images.each_with_index do |image , i|
                 -if i == 0
                   .item.active
-                    %img.img-responsive{:alt => "...", :src => asset_path(ListingImage.find(image.listing_id).image.url(:original))}
+                    %img.img-responsive{:alt => "...", :src => asset_path(image.image.url(:original))}
                 -else  
                   .item
-                    %img.img-responsive{:alt => "...", :src => asset_path(ListingImage.find(image.listing_id).image.url(:original))}
+                    %img.img-responsive{:alt => "...", :src => asset_path(image.image.url(:original))}
             -if !@first_slider_images.present?
               .item.active
                 %img.img-responsive{:alt => "...", :src => asset_path('index/No_image_available.png')}
@@ -43,10 +43,10 @@
               -@second_slider_images.each_with_index do |image , i|
                 -if i == 0
                   .item.active
-                    %img.img-responsive{:alt => "...", :src => asset_path(ListingImage.find(image.listing_id).image.url(:original))}
+                    %img.img-responsive{:alt => "...", :src => asset_path(image.image.url(:original))}
                 -else  
                   .item
-                    %img.img-responsive{:alt => "...", :src => asset_path(ListingImage.find(image.listing_id).image.url(:original))}
+                    %img.img-responsive{:alt => "...", :src => asset_path(image.image.url(:original))}
             -if !@second_slider_images.present?
               .item.active
                 %img.img-responsive{:alt => "...", :src => asset_path('index/No_image_available.png')}
