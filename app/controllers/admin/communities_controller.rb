@@ -43,9 +43,10 @@ class Admin::CommunitiesController < ApplicationController
     slider_image_params = params.require(:community).permit(:image)
     puts "*"*50 , 'params' , slider_image_params
     listing_image = ListingImage.new(slider_image_params)
+    listing_image.image_downloaded = false
     puts '*'*50 , "listing_image",listing_image.inspect
     if listing_image.save
-     if Delayed::Job.enqueue(DownloadListingImageJob.new(listing_image.id, nil), priority: 1)
+     # if Delayed::Job.enqueue(DownloadListingImageJob.new(listing_image.id, nil), priority: 1)
        FeaturedSlider.create!(:listing_id => listing_image.id)
      end
     end

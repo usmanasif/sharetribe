@@ -18,7 +18,7 @@
 
     .row
       .col-12
-        = form.button t("admin.communities.edit_details.update_information"), :id => "edit_community_button",:class => "send_button"
+        = form.button t("admin.communities.edit_details.upload_image"), :id => "edit_community_button",:class => "send_button"
 
   / -if @slider_images.present?
   /   -@slider_images.each do |image|
@@ -72,7 +72,7 @@
             method: 'PUT',
             type: 'json',
             success: function(result){
-            	if(result["deleted"]){
+            	if(result["deleted"] == 'true'){
             		$("#"+obj_id).parent().hide();
             	}
             	else{
