@@ -48,7 +48,7 @@ class Admin::CommunitiesController < ApplicationController
     if listing_image.save
      # if Delayed::Job.enqueue(DownloadListingImageJob.new(listing_image.id, nil), priority: 1)
        FeaturedSlider.create!(:listing_id => listing_image.id)
-     end
+     # end
     end
     edit_featured_slider
   end
