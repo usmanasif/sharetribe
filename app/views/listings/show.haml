@@ -101,7 +101,20 @@
                           .listing-description-youtube-wrapper
                             %iframe.listing-description-youtube-iframe{ title: t("listings.show.youtube_video_player"), width: 640, height:390, src: "//www.youtube.com/embed/#{ youtube_id }", frameborder: 0, allowfullscreen: true}
               #profile.tab-pane{:role => "tabpanel"}
-                %p None
+                - unless (@listing.closed? && !current_user?(@listing.author)) || !@current_community.listing_comments_in_use
+                  .view-item
+                    #comments.discussion.overflow-allowed.comment-form-vendor
+                      %h2
+                        = icon_tag("chat_bubble", ["icon-with_text"])
+                        .text-with-icon
+                          = t(".comments")
+                          %span#comment_count= "(#{@listing.comments_count})"
+                      #follow-links.follow-links
+                        = render :partial => "follow_links"
+                      #comment-list
+                        = render :partial => "comment", :collection => @listing.comments
+                      #comment-form
+                        = render :partial => "comment_form"
 
 
 

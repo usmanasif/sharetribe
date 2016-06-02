@@ -140,7 +140,7 @@
           %form.form-inline.search-form.search-result{:action => "#{homepage_index_path}" , :method => "get"}
             .input-group.col-sm-10
               %input.form-control{:name => "q", :placeholder => "Search", :type => "text", :value => ""}
-                .input-group-btn
+                .input-group-btn.select-drop-head
                   .search-form-input.categorices-select.btn.btn-default.dropdown-toggle 
                     %span.caret.caret-icon
                     = select_tag(:category,  options_from_collection_for_select(@main_categories, :url,:url) , class: 'categor-dropdown' , include_blank: "All Categories") 

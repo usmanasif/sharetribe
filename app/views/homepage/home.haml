@@ -18,7 +18,7 @@
                 -else  
                   .item
                     %img.img-responsive{:alt => "...", :src => asset_path(image.image.url(:original))}
-            -if !@first_slider_images.present?
+            -else
               .item.active
                 %img.img-responsive{:alt => "...", :src => asset_path('index/No_image_available.png')}
               .item
