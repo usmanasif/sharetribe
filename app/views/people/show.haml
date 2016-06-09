@@ -147,14 +147,14 @@
             .collections-items-head
               %a.items-title{:href => listing_path(set_path(listing.id))} #{listing.title}          
             .colletions-img-slider
-              = image_tag listing_image_url(listing,1), {:alt => listed_listing_title(listing), :class => "img-responsive img-slider"}
+              = image_tag listing_image_url(listing,0), {:alt => listed_listing_title(listing), :class => "img-responsive img-slider"}
             %ul.collections-img-list 
+              %li
+                = image_tag listing_image_url(listing,1), {:alt => listed_listing_title(listing), :class => "img-responsive"}
               %li
                 = image_tag listing_image_url(listing,2), {:alt => listed_listing_title(listing), :class => "img-responsive"}
               %li
                 = image_tag listing_image_url(listing,3), {:alt => listed_listing_title(listing), :class => "img-responsive"}
-              %li
-                = image_tag listing_image_url(listing,4), {:alt => listed_listing_title(listing), :class => "img-responsive"}
             %p USD$ #{listing.price}
 
 .container.following-collections
