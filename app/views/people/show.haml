@@ -138,26 +138,26 @@
  
 .container.collections-slider
   %h1
-    %a{:href => "#"}Collections by #{@person.username} 
-    %a{:href => "#"} (#{listings.count})
+    Collections by #{@person.username} (#{listings.count})
   #collections-carousel
-    -listings.each do |listing|
-      - url = with_all_original_listing_image(listing)
-      - if url.size >= 4 
-        .item 
-          .collections-items
-            .collections-items-head
-              %a.items-title{:href => "#"} #{listing.title}          
-            .colletions-img-slider
-              = image_tag url.first, {:alt => listed_listing_title(listing), :class => "img-responsive img-slider"}
-            %ul.collections-img-list 
-              %li
-                = image_tag url.second, {:alt => listed_listing_title(listing), :class => "img-responsive"}
-              %li
-                = image_tag url.third, {:alt => listed_listing_title(listing), :class => "img-responsive"}
-              %li
-                = image_tag url.fourth, {:alt => listed_listing_title(listing), :class => "img-responsive"}
-            %p USD$ #{listing.price}
+    -if listings.present?
+      -listings.each do |listing|
+        - url = with_all_original_listing_image(listing)
+        - if url.size >= 4 
+          .item 
+            .collections-items
+              .collections-items-head
+                %a.items-title{:href => "#"} #{listing.title}          
+              .colletions-img-slider
+                = image_tag url.first, {:alt => listed_listing_title(listing), :class => "img-responsive img-slider"}
+              %ul.collections-img-list 
+                %li
+                  = image_tag url.second, {:alt => listed_listing_title(listing), :class => "img-responsive"}
+                %li
+                  = image_tag url.third, {:alt => listed_listing_title(listing), :class => "img-responsive"}
+                %li
+                  = image_tag url.fourth, {:alt => listed_listing_title(listing), :class => "img-responsive"}
+              %p USD$ #{listing.price}
 .container.following-collections
   %h2
     Following
