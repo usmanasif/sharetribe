@@ -32,13 +32,10 @@ module HomepageHelper
     return array
   end
 
-  def with_all_original_listing_image(listing)
-    url = []
-    l_i = Listing.find(listing['id']).listing_images
-    if !l_i.empty? && l_i.size >= 3
-      for i in 0..3
-        url << l_i[i].image.url(:original)
-      end
+  def listing_image_url(listing , which_one)
+    url = '/assets/add_more_images.jpg'
+    if temp = Listing.find(listing['id']).listing_images[which_one]
+      url = temp.image.url(:original)
     end
     return url  
   end
