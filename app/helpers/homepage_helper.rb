@@ -32,11 +32,13 @@ module HomepageHelper
     return array
   end
 
-  def with_first_size_listing_image(listing)
-    url = ''
+  def with_all_original_listing_image(listing)
+    url = []
     l_i = Listing.find(listing['id']).listing_images
     if !l_i.empty?
-      url = l_i.first.image.url(:original)
+      for i in 0..3
+        url << l_i[i].image.url(:original)
+      end
     end
     return url  
   end

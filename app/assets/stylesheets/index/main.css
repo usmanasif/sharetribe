@@ -1596,7 +1596,7 @@ form .checkbox-container label {
 }
 .colletions-img-slider {
     width: 230px;
-    height: 180px;
+    height: 230px;
     border: 1px solid #CCC;
     display: block;
     overflow: hidden;
@@ -1696,7 +1696,7 @@ form .checkbox-container label {
     border-bottom-color: #fff;
     border-width: 14px;
     margin-left: -14px;
-}
+};
 .follow_caption {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1704,5 +1704,10 @@ form .checkbox-container label {
     height: 59px;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+}
+.img-slider {
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
 }
 /* Rating Detail Page end */

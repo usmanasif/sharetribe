@@ -142,21 +142,22 @@
     %a{:href => "#"} (#{listings.count})
   #collections-carousel
     -listings.each do |listing|
-      .item
-        .collections-items
-          .collections-items-head
-            %a.items-title{:href => "#"} #{listing.title}
-          - url = with_first_size_listing_image(listing)
-          .colletions-img-slider
-            = image_tag url, {:alt => listed_listing_title(listing), :class => "img-responsive"}
-          %ul.collections-img-list 
-            %li
-              = image_tag url, {:alt => listed_listing_title(listing), :class => "img-responsive"}
-            %li
-              = image_tag url, {:alt => listed_listing_title(listing), :class => "img-responsive"}
-            %li
-              = image_tag url, {:alt => listed_listing_title(listing), :class => "img-responsive"}
-          %p Price
+      - url = with_all_original_listing_image(listing)
+      - if url.size >= 4 
+        .item 
+          .collections-items
+            .collections-items-head
+              %a.items-title{:href => "#"} #{listing.title}          
+            .colletions-img-slider
+              = image_tag url.first, {:alt => listed_listing_title(listing), :class => "img-responsive img-slider"}
+            %ul.collections-img-list 
+              %li
+                = image_tag url.second, {:alt => listed_listing_title(listing), :class => "img-responsive"}
+              %li
+                = image_tag url.third, {:alt => listed_listing_title(listing), :class => "img-responsive"}
+              %li
+                = image_tag url.fourth, {:alt => listed_listing_title(listing), :class => "img-responsive"}
+            %p USD$ #{listing.price}
 .container.following-collections
   %h2
     Following
