@@ -32,6 +32,15 @@ module HomepageHelper
     return array
   end
 
+  def with_first_size_listing_image(listing)
+    url = ''
+    l_i = Listing.find(listing['id']).listing_images
+    if !l_i.empty?
+      url = l_i.first.image.url(:original)
+    end
+    return url  
+  end
+
   def set_path listing_id
     Listing.find listing_id    
   end

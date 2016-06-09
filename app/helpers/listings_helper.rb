@@ -136,4 +136,9 @@ module ListingsHelper
     t(listing.action_button_tr_key)
   end
 
+  def item_condition
+    Listing.find(9).custom_field_values.where(:type => 'CheckboxFieldValue').first.question.name
+    Listing.find(9).custom_field_values.where(:type => 'CheckboxFieldValue').first.selected_options
+  end
+
 end

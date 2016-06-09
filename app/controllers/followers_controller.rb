@@ -4,6 +4,7 @@ class FollowersController < ApplicationController
     controller.ensure_logged_in t("layouts.notifications.you_must_log_in_to_view_this_content")
   end
 
+
   def create
     target_user = Person.find_by!(username: params[:person_id], community_id: @current_community.id)
 
@@ -23,6 +24,5 @@ class FollowersController < ApplicationController
       format.js { render :partial => "people/follow_button", :locals => { :person => target_user } }
     end
   end
-
 end
 

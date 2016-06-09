@@ -1,13 +1,13 @@
-.container-fulid
+.container-fluid.padding-0
   .three-columns
-    .single-product
+    .single-product.row
       .slider-block.col-md-5.col-sm-5.col-xs-5
         .slideshow
           .slider-holder
             .slideset
               -@listing.listing_images.each_with_index do |ls_img , i|
                 .slide
-                  %img.img-responsive{:alt => "item image", :src => asset_path(ls_img.image.url(:medium))}
+                  %img.img-responsive{:alt => "item image", :src => asset_path(ls_img.image.url(:original))}
           .static-block
             %a.btn-prev{:href => "#"}
               %i.fa.fa-5x.fa-angle-left
@@ -24,26 +24,27 @@
           %h1
             %span#listing-title.listing-title= @listing.title
         .row
-          .col-md-8.col-sm-8.col-xs-8
+          .col-md-7.col-sm-7.col-xs-7
             .row
               %ul.product-info
                 %li
                   .col-md-3.col-sm-3.col-xs-3.p-0.text-right
-                    %span Item condition:
+                    - @listing.custom_field_values.each do |custom_field_value|
+                      .row
+                        .col-12
+                          - custom_field_value.with_type do |question_type|
+                            / = custom_field_value.inspect
+                            / =question_type
+                            = render :partial => "listings/custom_field_partials/#{question_type}", :locals => { :custom_field_value => custom_field_value }
                   .col-md-9.col-sm-9.col-xs-9
-                    / %strong New with tags
-                %li
-                  .col-md-3.col-sm-3.col-xs-3.p-0.text-right
-                    %span Design:
-                  .col-md-9.col-sm-9.col-xs-9
-                    / %strong New with tags
+
                 %li
                   .col-md-3.col-sm-3.col-xs-3.p-0.text-right
                     %span Qty:
                   .col-md-9.col-sm-9.col-xs-9
                     .qty
-                    /   %input.form-control{:type => "text"}
-                    / %span.available-info More than 10 available
+                      %input.form-control{:type => "text"}
+                    %span.available-info More than 10 available
                 %li
                   .price-area
                     .col-md-1.col-sm-1.col-xs-1
@@ -73,8 +74,24 @@
                   .col-md-9.col-sm-9.col-xs-9
                     %p
                       Varies
-          .col-md-4.col-sm-4.col-xs-4
-            %img.single_prodect-img.img-responsive{:src =>  asset_path('index/single_prodect.jpg')}
+          .col-md-5.col-sm-5.col-xs-5
+            .row-with-divider
+              .col-12
+                .author-box
+                  .listing-author
+                    .listing-author-avatar
+                      = medium_avatar_thumb(@listing.author, {:class => "listing-author-avatar-image"})
+                    .listing-author-details
+                      .listing-author-name
+                        = link_to @listing.author.name(@current_community), @listing.author, :id => "listing-author-link", :class => "listing-author-name-link", :title => "#{@listing.author.name(@current_community)}"
+                        %ul.author_details-list
+                          %li
+                            %span Total listings #{@listing.author.listings.count}
+                          %li
+                            %span Ships items quickly
+                          %li
+                            %span Has earned a track record of excellent service
+
               %img.img-responsive{:src => asset_path('index/single_prodect.jpg')}
 .container
   .row

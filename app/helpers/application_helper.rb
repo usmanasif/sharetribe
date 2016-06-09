@@ -133,7 +133,7 @@ module ApplicationHelper
 
     image_url = person.image.present? ? person.image.url(:medium) : missing_avatar(:medium)
 
-    image_tag image_url, { :alt => person.name(@current_community) }.merge(options)
+    image_tag image_url, { :alt => person.name(@current_community) ,:class => "img-responsive" }.merge(options)
   end
 
   def missing_avatar(size = :medium)

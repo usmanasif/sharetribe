@@ -20,6 +20,7 @@
 // the compiled file.
 //
 //= require jquery
+//= require jquery_ujs
 //= require index/bootstrap
 //= require index/owl.carousel.min
 //= require index/custom
