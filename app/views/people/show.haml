@@ -140,7 +140,7 @@
   %h1
     Collections by #{@person.username} (#{listings.count})
   #collections-carousel
-    -if listings.present?
+    -if listings.count > 0
       -listings.each do |listing|
         - url = with_all_original_listing_image(listing)
         - if url.size >= 4 
@@ -158,6 +158,7 @@
                 %li
                   = image_tag url.fourth, {:alt => listed_listing_title(listing), :class => "img-responsive"}
               %p USD$ #{listing.price}
+
 .container.following-collections
   %h2
     Following
