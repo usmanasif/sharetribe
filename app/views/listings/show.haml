@@ -86,7 +86,8 @@
                         = link_to @listing.author.name(@current_community), @listing.author, :id => "listing-author-link", :class => "listing-author-name-link", :title => "#{@listing.author.name(@current_community)}"
                         %ul.author_details-list
                           %li
-                            %span Total listings #{@listing.author.listings.count}
+                            %span Total listings 
+                            = count_active_listings_for(@listing.author)
                           %li
                             %span Ships items quickly
                           %li

@@ -733,4 +733,9 @@ module ApplicationHelper
       content_for :extra_javascript do js end
     end
   end
+
+  def count_active_listings_for author_id
+    Listing.where(:author_id => author_id , :deleted => false ).count
+  end
+
 end
