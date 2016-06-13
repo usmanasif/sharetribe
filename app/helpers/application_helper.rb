@@ -754,10 +754,10 @@ module ApplicationHelper
   end
 
     def min_order
-    quantity = "Min Order:"
+    quantity = ""
     self.custom_field_values.where(:type => 'NumericFieldValue').all.each do |c_f_v|
       if c_f_v.question.name == 'Min Order'
-        quantity = quantity + c_f_v.display_value.to_s
+        quantity = c_f_v.display_value
       end
     end
     return quantity

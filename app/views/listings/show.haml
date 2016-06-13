@@ -45,9 +45,9 @@
                     %span Qty:
                   .col-md-3.col-sm-3.col-xs-3
                     .qty
-                      %input.form-control{:type => "text" , :id => "qty"}
+                      %input.form-control{:type => "text" , :id => "qty" , :value => "#{@listing.min_order}" }
                       %lable.min-order
-                        #{@listing.min_order}
+                        Min Order: #{@listing.min_order}
                   .col-md-6.col-sm-6.col-xs-6 
                     .available     
                       #{@listing.available} available /  0 sold  
@@ -141,17 +141,28 @@
                         = render :partial => "comment_form"
 
 :javascript
-  document.getElementById('qty').onkeypress =
-    function (e) {
-      var ev = e || window.event;
-      if(ev.charCode < 48 || ev.charCode > 57) {
-        return false; // not a digit
-      } else if(this.value * 10 + ev.charCode - 48 > this.max) {
-         return false;
-      } else {
-         return true;
+  $(function(){
+    $('#qty').keypress(function(e) {
+      if(isNaN(this.value+""+String.fromCharCode(e.charCode))) return false;
+    })
+    .on("cut copy paste",function(e){
+    e.preventDefault();
+    });
+  });
+
+  $("#qty").on('change keyup paste', function () {
+    ApplyFilter();
+  });
+
+  function ApplyFilter() {
+      var value = $("#qty").val();
+      if( value < #{@listing.min_order} ){
+        $("#qty").val(#{@listing.min_order});
       }
-    }
+      if( value > #{@listing.available} ){
+        $("#qty").val(#{@listing.available});
+      }     
+  }
 
 
 
