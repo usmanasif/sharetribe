@@ -737,5 +737,41 @@ module ApplicationHelper
   def count_active_listings_for author_id
     Listing.where(:author_id => author_id , :deleted => false ).count
   end
+  
+  def item_condition
+    condition = ""
+    self.custom_field_values.where(:type => 'CheckboxFieldValue').all.each do |c_f_v|
+      if c_f_v.question.name == "Item Condition"
+        s_id = c_f_v.selected_options.first.id
+        condition = c_f_v.question.options.find(s_id).title
+      end
+    end
+=begin  
+      Listing.find(9).custom_field_values.where(:type => 'CheckboxFieldValue').first.question.name
+      Listing.find(9).custom_field_values.where(:type => 'CheckboxFieldValue').first.selected_options
+=end
+    return condition
+  end
+
+    def min_order
+    quantity = "Min Order:"
+    self.custom_field_values.where(:type => 'NumericFieldValue').all.each do |c_f_v|
+      if c_f_v.question.name == 'Min Order'
+        quantity = quantity + c_f_v.display_value.to_s
+      end
+    end
+    return quantity
+  end
+  
+  def available
+    quantity = ""
+    self.custom_field_values.where(:type => 'NumericFieldValue').all.each do |c_f_v|
+      if c_f_v.question.name == 'Items available'
+        quantity = quantity + c_f_v.display_value.to_s
+      end
+    end
+    return quantity
+  end
+
 
 end

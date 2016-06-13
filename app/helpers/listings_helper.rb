@@ -137,8 +137,15 @@ module ListingsHelper
   end
 
   def item_condition
-    Listing.find(9).custom_field_values.where(:type => 'CheckboxFieldValue').first.question.name
-    Listing.find(9).custom_field_values.where(:type => 'CheckboxFieldValue').first.selected_options
+    condition = ""
+    self.custom_field_values.where(:type => 'CheckboxFieldValue').all.each do |c_f_v|
+      if c_f_v.question.name == "Item Condition"
+        condition = c_f_v.selected_options
+      end
+    end
+=begin  
+      Listing.find(9).custom_field_values.where(:type => 'CheckboxFieldValue').first.question.name
+      Listing.find(9).custom_field_values.where(:type => 'CheckboxFieldValue').first.selected_options
+=end
   end
-
 end

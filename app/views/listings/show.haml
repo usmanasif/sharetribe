@@ -29,22 +29,28 @@
               %ul.product-info
                 %li
                   .col-md-3.col-sm-3.col-xs-3.p-0.text-right
-                    - @listing.custom_field_values.each do |custom_field_value|
-                      .row
-                        .col-12
-                          - custom_field_value.with_type do |question_type|
-                            / = custom_field_value.inspect
-                            / =question_type
-                            = render :partial => "listings/custom_field_partials/#{question_type}", :locals => { :custom_field_value => custom_field_value }
+                    / - @listing.custom_field_values.each do |custom_field_value|
+                    /   .row
+                    /     .col-12
+                    /       - custom_field_value.with_type do |question_type|
+                    /         / = custom_field_value.inspect
+                    /         / =question_type
+                    /         = render :partial => "listings/custom_field_partials/#{question_type}", :locals => { :custom_field_value => custom_field_value }
+                    %span Item Condition:
+                    
                   .col-md-9.col-sm-9.col-xs-9
-
+                    #{@listing.item_condition}
                 %li
                   .col-md-3.col-sm-3.col-xs-3.p-0.text-right
                     %span Qty:
-                  .col-md-9.col-sm-9.col-xs-9
+                  .col-md-3.col-sm-3.col-xs-3
                     .qty
-                      %input.form-control{:type => "text"}
-                    %span.available-info More than 10 available
+                      %input.form-control{:type => "text" , :id => "qty"}
+                      %lable.min-order
+                        #{@listing.min_order}
+                  .col-md-6.col-sm-6.col-xs-6 
+                    .available     
+                      #{@listing.available} available /  0 sold  
                 %li
                   .price-area
                     .col-md-1.col-sm-1.col-xs-1
@@ -134,7 +140,18 @@
                       #comment-form
                         = render :partial => "comment_form"
 
-
+:javascript
+  document.getElementById('qty').onkeypress =
+    function (e) {
+      var ev = e || window.event;
+      if(ev.charCode < 48 || ev.charCode > 57) {
+        return false; // not a digit
+      } else if(this.value * 10 + ev.charCode - 48 > this.max) {
+         return false;
+      } else {
+         return true;
+      }
+    }
 
 
 
