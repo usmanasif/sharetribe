@@ -7,7 +7,7 @@
             .slideset
               -@listing.listing_images.each_with_index do |ls_img , i|
                 .slide
-                  %img.img-responsive{:alt => "item image", :src => asset_path(ls_img.image.url(:original))}
+                  %img.img-responsive{:alt => "item image", :src => asset_path(ls_img.image.url(:original)) }
           .static-block
             %a.btn-prev{:href => "#"}
               %i.fa.fa-5x.fa-angle-left
@@ -18,7 +18,7 @@
                 -@listing.listing_images.each_with_index do |ls_img , i|
                   %li
                     %a{:href => "#"}
-                      %img{:alt => "item image", :src => asset_path(ls_img.image.url(:thumb))}
+                      %img{:alt => "item image", :src => asset_path(ls_img.image.url(:thumb)) }
       .qty-block.col-md-7.col-sm-7.col-xs-7
         .single_head      
           %h1
@@ -45,7 +45,7 @@
                     %span Qty:
                   .col-md-3.col-sm-3.col-xs-3
                     .qty
-                      %input.form-control{:type => "text" , :id => "qty" , :value => "#{@listing.min_order}" }
+                      %input.form-control{:type => "number", :value => "#{@listing.min_order}" , :min => "#{@listing.min_order}" , :max => "#{@listing.available}"}
                       %lable.min-order
                         Min Order: #{@listing.min_order}
                   .col-md-6.col-sm-6.col-xs-6 
@@ -140,31 +140,31 @@
                       #comment-form
                         = render :partial => "comment_form"
 
-:javascript
-  $(function(){
-    $('#qty').keypress(function(e) {
-      if(isNaN(this.value+""+String.fromCharCode(e.charCode))) return false;
-    })
-    .on("cut copy paste",function(e){
-    e.preventDefault();
-    });
-  });
-
-  $("#qty").on('change keyup paste', function () {
-    ApplyFilter();
-  });
-
-  function ApplyFilter() {
-      var value = $("#qty").val();
-      if( value < #{@listing.min_order} ){
-        $("#qty").val(#{@listing.min_order});
-      }
-      if( value > #{@listing.available} ){
-        $("#qty").val(#{@listing.available});
-      }     
-  }
 
 
+/ :javascript
+/   $(function(){
+/     $('#qty').keypress(function(e) {
+/       if(isNaN(this.value+""+String.fromCharCode(e.charCode))) return false;
+/     })
+/     .on("cut copy paste",function(e){
+/     e.preventDefault();
+/     });
+/   });
+
+/   / $("#qty").on('paste keydown change', function () {
+/   /   ApplyFilter();
+/   / });
+
+/   / function ApplyFilter() {
+/   /     var value = $("#qty").val();
+/   /     if( value < #{@listing.min_order} ){
+/   /       $("#qty").val(#{@listing.min_order});
+/   /     }
+/   /     if( value > #{@listing.available} ){
+/   /       $("#qty").val(#{@listing.available});
+/   /     }     
+/   / }
 
 
 
