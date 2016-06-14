@@ -45,7 +45,7 @@
                     %span Qty:
                   .col-md-3.col-sm-3.col-xs-3
                     .qty
-                      %input.form-control{:type => "number", :value => "#{@listing.min_order}" , :min => "#{@listing.min_order}" , :max => "#{@listing.available}"}
+                      %input.form-control{:id => "qty" ,:type => "number", :min => "#{@listing.min_order}" , :max => "#{@listing.available}" , :value => "#{@listing.min_order}" }
                       %lable.min-order
                         Min Order: #{@listing.min_order}
                   .col-md-6.col-sm-6.col-xs-6 
@@ -142,29 +142,20 @@
 
 
 
-/ :javascript
-/   $(function(){
-/     $('#qty').keypress(function(e) {
-/       if(isNaN(this.value+""+String.fromCharCode(e.charCode))) return false;
-/     })
-/     .on("cut copy paste",function(e){
-/     e.preventDefault();
-/     });
-/   });
+:javascript
+  $("#qty").on('keyup paste', function () {
+    ApplyFilter();
+  });
 
-/   / $("#qty").on('paste keydown change', function () {
-/   /   ApplyFilter();
-/   / });
-
-/   / function ApplyFilter() {
-/   /     var value = $("#qty").val();
-/   /     if( value < #{@listing.min_order} ){
-/   /       $("#qty").val(#{@listing.min_order});
-/   /     }
-/   /     if( value > #{@listing.available} ){
-/   /       $("#qty").val(#{@listing.available});
-/   /     }     
-/   / }
+  function ApplyFilter() {
+      var value = $("#qty").val();
+      if( value < #{@listing.min_order} ){
+        $("#qty").val(#{@listing.min_order});
+      }
+      if( value > #{@listing.available} ){
+        $("#qty").val(#{@listing.available});
+      }     
+  }
 
 
 
