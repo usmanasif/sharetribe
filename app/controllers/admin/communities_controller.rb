@@ -41,10 +41,8 @@ class Admin::CommunitiesController < ApplicationController
     @selected_left_navi_link = "tribe_featured_slider"
     @community = @current_community
     slider_image_params = params.require(:community).permit(:image)
-    puts "*"*50 , 'params' , slider_image_params
     slider_image = FeaturedSlider.new(slider_image_params)
     slider_image.image_for = 0
-    # puts '*'*50 , "listing_image",listing_image.inspect
     slider_image.save
     edit_featured_slider
   end
@@ -233,7 +231,14 @@ class Admin::CommunitiesController < ApplicationController
     # Redirect if payment gateway in use but it's not braintree
     redirect_to edit_details_admin_community_path(@current_community) if @current_community.payment_gateway && !@current_community.braintree_in_use?
 
-    braintree_params = params[:payment_gateway]
+    braintree_params = params.require(:payment_gateway).permit(
+                                                              :braintree_environment,
+                                                              :braintree_public_key,
+                                                              :braintree_private_key,
+                                                              :braintree_merchant_id,
+                                                              :braintree_master_merchant_id,
+                                                              :braintree_client_side_encryption_key
+                                                              )
     community_params = params.require(:community).permit(:commission_from_seller)
 
     unless @current_community.update_attributes(community_params)
@@ -403,9 +408,9 @@ class Admin::CommunitiesController < ApplicationController
     !params[:community][:favicon].nil?
   end
 
-  def update(model, params, path, action, &block)
-    puts "&&"*50 , params
-    if model.update_attributes(params)
+  def update(model, permitted_p, path, action, &block)
+    puts "&&"*50 , permitted_p
+    if model.update_attributes(permitted_p)
       flash[:notice] = t("layouts.notifications.community_updated")
       block.call(model) if block_given? #on success, call optional block
       redirect_to path
