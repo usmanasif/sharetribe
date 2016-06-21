@@ -8,6 +8,8 @@
       = stylesheet_link_tag "index/app-index"
       %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
       = javascript_include_tag 'index/app-index'
+      %link{:href => "//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css", :rel => "stylesheet"}
+      %link{:href => "//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css", :rel => "stylesheet"}/
 %body
   %header#header
     .header-top
@@ -177,10 +179,7 @@
                   %a{:href => "#"} Home & Garden
                 %li
                   %a{:href => "#"} Sporting Goods
-                %li
-                  %a{:href => "#"} Motors
-                %li
-                  %a{:href => "#"} Daily Deals
+
             / /.navbar-collapse
           / /.container-fluid
   / Banner

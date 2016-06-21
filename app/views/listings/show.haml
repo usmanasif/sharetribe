@@ -39,7 +39,7 @@
                     %span Item Condition:
                     
                   .col-md-9.col-sm-9.col-xs-9
-                    #{@listing.item_condition}
+                    %span #{@listing.item_condition}
                 %li
                   .col-md-3.col-sm-3.col-xs-3.p-0.text-right
                     %span Qty:
@@ -53,24 +53,32 @@
                       #{@listing.available} available /  0 sold  
                 %li
                   .price-area
-                    .col-md-1.col-sm-1.col-xs-1
+                    .col-md-1.col-sm-1.col-xs-1.padding-right-0
                       %i.fa.fa-money{"aria-hidden" => "true"}
-                    .col-md-4.col-sm-4.col-xs-4
-                      %span Price:
-                    .col-md-7.col-sm-7.col-xs-7
+                    .col-md-3.col-sm-3.col-xs-3.padding-0
+                      %span Price
+                    .col-md-4.col-sm-4.col-xs-4.padding-0
                       .listing-price
                         %span.listing-price-amount
-                          = humanized_money_with_symbol(@listing.price).upcase
-                        - with_quantity_and_vat_text(@current_community, @listing) do |text|
-                          %span.listing-price-quantity
-                            = text
-                      / %em 608 watching
-                    .col-md-12.col-sm-12.col-xs-12
+                          %span#price_span
+                            = humanized_money_with_symbol(@listing.price).upcase
+                    .col-md-4.col-sm-4.col-xs-4                      
+                    .col-md-12.col-sm-12.col-xs-12.row.delivery-method
                       #listing-message-links
                         = render :partial => "listing_actions", locals: { form_path: form_path, payment_gateway: payment_gateway, delivery_opts: delivery_opts, process: process, listing_unit_type: listing_unit_type, country_code: country_code }
+
+                    .col-md-12.col-sm-12.col-xs-12.cards-image-holder
+                      %img{:alt => "Cards", :src => asset_path("braintree_cards.png") }
+
                 %li
                   .col-md-3.col-sm-3.col-xs-3.p-0.text-right
-                    %span Shipping:
+                    %span Pickup Address:
+                  .col-md-9.col-sm-9.col-xs-9
+                    %p
+                      = @listing.origin
+                %li
+                  .col-md-3.col-sm-3.col-xs-3.p-0.text-right
+                    %span Shipping info:
                   .col-md-9.col-sm-9.col-xs-9
                     %p
                       May not ship to USA - Read item description or contact seller for shipping options. 
@@ -148,13 +156,27 @@
   });
 
   function ApplyFilter() {
-      var value = $("#qty").val();
-      if( value < #{@listing.min_order} ){
-        $("#qty").val(#{@listing.min_order});
-      }
-      if( value > #{@listing.available} ){
-        $("#qty").val(#{@listing.available});
-      }     
+    var value = $("#qty").val();
+    if( value < #{@listing.min_order} ){
+      $("#qty").val(#{@listing.min_order});
+    }
+    if( value > #{@listing.available} ){
+      $("#qty").val(#{@listing.available});
+    }
+  }
+  
+  $(document).ready(function(){
+    cal_price()
+  })
+
+  $("#qty").change(function(){
+   cal_price()
+  })
+
+  function cal_price(){
+    var q = parseFloat($("#qty").val())
+    var p = parseFloat(#{humanized_money(@listing.price)})
+    $("#price_span").text("$" + q * p );
   }
 
 
