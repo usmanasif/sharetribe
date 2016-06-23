@@ -1757,15 +1757,7 @@ form .checkbox-container label {
 
 
 }
-.btn-un {
-       background: red;
-    color: white;
-    border-radius: 26px;
-    position: absolute;
-    right: 7px;
-    top: 11px;
-    padding: 1px 16px;
-}
+
 .delivery-method label {
     display: inline-block;
     vertical-align: middle;
