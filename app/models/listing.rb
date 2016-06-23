@@ -46,6 +46,7 @@
 #  pickup_enabled                  :boolean          default(FALSE)
 #  shipping_price_cents            :integer
 #  shipping_price_additional_cents :integer
+#  featured                        :boolean          default(FALSE)
 #
 # Indexes
 #
@@ -140,6 +141,7 @@ class Listing < ActiveRecord::Base
   end
 
   # Overrides the to_param method to implement clean URLs
+
   def to_param
     "#{id}-#{title.to_url}"
   end

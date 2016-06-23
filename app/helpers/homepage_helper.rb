@@ -43,4 +43,10 @@ module HomepageHelper
   def set_path listing_id
     Listing.find listing_id    
   end
+
+  def is_featured id
+    puts "^"*50 , id , Listing.find(id.to_i).featured
+    return Listing.find(id.to_i).featured
+  end
+
 end 

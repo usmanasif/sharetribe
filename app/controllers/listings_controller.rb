@@ -488,6 +488,17 @@ class ListingsController < ApplicationController
 
   end
 
+  def on_featured
+    l=Listing.find(params[:id]).update_attribute(:featured, true)        
+    redirect_to :back
+  end
+
+  def off_featured
+    l=Listing.find(params[:id]).update_attribute(:featured, false)
+    redirect_to :back
+  end
+
+
   private
 
   def select_shape(shapes, id)

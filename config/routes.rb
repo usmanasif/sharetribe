@@ -333,6 +333,8 @@ Kassi::Application.routes.draw do
             put :close
             put :move_to_top
             put :show_in_updates_email
+            post :on_featured
+            post :off_featured
           end
         end
         resources :person_messages
