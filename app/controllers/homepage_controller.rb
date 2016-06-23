@@ -336,7 +336,7 @@ class HomepageController < ApplicationController
     temp = []
     search_result[:listings].each_with_index do |ls , i|
       if locs.include? ls[:id].to_i
-        puts "&"*500 , temp << ls
+        temp << ls
       end
     end
     search_result[:count] = temp.size

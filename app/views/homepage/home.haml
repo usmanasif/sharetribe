@@ -65,41 +65,42 @@
       .row
         %h2 Today's Featured Collections
         - @listings.each do |listing|
-          - list = get_image_url(listing)
-          .col-md-6.col-sm-12.col-xs-12
-            .col-md-12.col-sm-12.col-xs-12
-              .row
-                .col-md-9.col-sm-9.col-xs-9.padding-0
-                  %a{:href => listing_path(set_path(listing.id))}
-                    %img.img-responsive.img-featured{:alt => "", :src => list.first}/
-                .col-md-3.col-sm-3.col-xs-3.padding-0
-                  %ul.featured-list
-                    - if list.second
-                      %li
-                        %a{:href => listing_path(set_path(listing.id)) }
-                          %img.img-responsive{:alt => "", :src => list.second}/
-                    -if list.third
-                      %li
-                        %a{:href => listing_path(set_path(listing.id))}
-                          %img.img-responsive{:alt => "", :src => list.third}/
-                    - if list.fourth
-                      %li
-                        %a{:href => listing_path(set_path(listing.id))}
-                          %img.img-responsive{:alt => "", :src => list.fourth}/    
-            .col-md-12.col-sm-12.col-xs-12
-              .row
-                .padding-left-0.col-md-9.col-sm-9.col-xs-9
-                  %a.title{:href => listing_path(set_path(listing.id)) } #{listing.title}
-                  .featured-textarea
-                    %p #{ listing.description}
+          -if is_featured(listing.id)
+            - list = get_image_url(listing)
+            .col-md-6.col-sm-12.col-xs-12
+              .col-md-12.col-sm-12.col-xs-12
+                .row
+                  .col-md-9.col-sm-9.col-xs-9.padding-0
+                    %a{:href => listing_path(set_path(listing.id))}
+                      %img.img-responsive.img-featured{:alt => "", :src => list.first}/
+                  .col-md-3.col-sm-3.col-xs-3.padding-0
+                    %ul.featured-list
+                      - if list.second
+                        %li
+                          %a{:href => listing_path(set_path(listing.id)) }
+                            %img.img-responsive{:alt => "", :src => list.second}/
+                      -if list.third
+                        %li
+                          %a{:href => listing_path(set_path(listing.id))}
+                            %img.img-responsive{:alt => "", :src => list.third}/
+                      - if list.fourth
+                        %li
+                          %a{:href => listing_path(set_path(listing.id))}
+                            %img.img-responsive{:alt => "", :src => list.fourth}/    
+              .col-md-12.col-sm-12.col-xs-12
+                .row
+                  .padding-left-0.col-md-9.col-sm-9.col-xs-9
+                    %a.title{:href => listing_path(set_path(listing.id)) } #{listing.title}
+                    .featured-textarea
+                      %p #{ listing.description}
 
-                .padding-right-0.col-md-3.col-sm-3.col-xs-3
-                  %ul.details
-                    %li 
-                      %a{:href => person_path(listing.author.username)} #{listing.author.username}
-                    %li US #{listing.price}$
-                    %li
-                      %a{:href => listing_path(set_path(listing.id)) } Show now
+                  .padding-right-0.col-md-3.col-sm-3.col-xs-3
+                    %ul.details
+                      %li 
+                        %a{:href => person_path(listing.author.username)} #{listing.author.username}
+                      %li US #{listing.price}$
+                      %li
+                        %a{:href => listing_path(set_path(listing.id)) } Show now
                         
 / - @listings.each do |listing|
 /   = render :partial => "layouts/grid_item_listing_image", :locals => {:listing => listing, :modifier_class => ""}
