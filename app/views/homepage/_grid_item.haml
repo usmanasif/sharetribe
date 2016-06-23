@@ -17,11 +17,11 @@
 
           - if !is_featured(listing.id)
             = link_to on_featured_person_listing_path(@current_user,listing.id ), :method => "post", :remote => true, :id => "followButton" do
-              %button{name: 'featured' , style: "background:green;color:white; border-radius: 26px;"}
+              %button.btn-un{name: 'featured' , style: "background:green;color:white; border-radius: 26px;"}
                 Feature
           -else
             = link_to off_featured_person_listing_path(@current_user , listing.id ), :method => "post", :remote => true, :id => "followButton" do
-              %button{name: 'unfeatured', style: "background:red;color:white; border-radius: 26px;"}
+              %button.btn-un{name: 'unfeatured', style: "background:red;color:white; border-radius: 26px;"}
                 Un Feature
 
         - else
