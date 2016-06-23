@@ -16,6 +16,7 @@
                   %span.custom-filter-checkbox-label-text
                     = option.title(I18n.locale)
 
+
   - field.with(:numeric) do
     .row
       .col-12
@@ -45,3 +46,10 @@
           %span.custom-filter-min-max-title= t(".max")
           %span{id: "custom-filter-max-value-#{id}"}
           %input{type: "hidden", id: "nf_max_#{id}", name: "nf_max_#{field.id}", value: params["nf_max_#{field.id}"]}
+
+  .row
+    .col-12
+      %span
+        Location(City/State)
+      %span
+        %input{:id => "g_f", name: "g_f"}

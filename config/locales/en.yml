@@ -54,6 +54,7 @@ en:
         community_details: "Basic details"
         community_look_and_feel: Design
         community_featured_slider: "Landing Page Slider"
+        community_featured_products: "Featured Products"
         edit_community: "Basic details"
         enabled_languages: "Enabled languages"
         enabled_languages_description: "The set of languages available for users. The first one is used as default."
@@ -1417,6 +1418,7 @@ en:
       profile: "Profile info"
       settings: Settings
       payments: Payments
+      payment_gateway: "Payment Gateway info"
   listings:
     bubble_listing_not_visible:
       listing_not_visible: "You do not have permission to view this listing."

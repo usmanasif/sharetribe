@@ -437,6 +437,13 @@ module ApplicationHelper
       },
       {
         :topic => :configure,
+        :text => t("admin.communities.edit_details.community_featured_products"),
+        :icon_class => icon_class("ss-paintroller"),
+        :path => edit_featured_products_admin_community_path(@current_community),
+        :name => "featured_products"
+      },
+      {
+        :topic => :configure,
         :text => t("admin.communities.menu_links.menu_links"),
         :icon_class => icon_class("link"),
         :path => menu_links_admin_community_path(@current_community),
@@ -556,6 +563,7 @@ module ApplicationHelper
         :path => notifications_person_settings_path(person),
         :name => "notifications"
       }
+
     ]
 
     payment_type = MarketplaceService::Community::Query.payment_type(@current_community.id)
@@ -746,10 +754,6 @@ module ApplicationHelper
         condition = c_f_v.question.options.find(s_id).title
       end
     end
-=begin  
-      Listing.find(9).custom_field_values.where(:type => 'CheckboxFieldValue').first.question.name
-      Listing.find(9).custom_field_values.where(:type => 'CheckboxFieldValue').first.selected_options
-=end
     return condition
   end
 

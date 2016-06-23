@@ -37,6 +37,12 @@ class Admin::CommunitiesController < ApplicationController
     render 'edit_featured_slider'
   end
 
+  def edit_featured_products
+    @selected_left_navi_link = "tribe_featured_slider"
+    @community = @current_community
+    render 'edit_featured_products'
+  end
+
   def update_featured_slider
     @selected_left_navi_link = "tribe_featured_slider"
     @community = @current_community

@@ -81,12 +81,14 @@ Kassi::Application.routes.draw do
   # Adds locale to every url right after the root path
   scope "(/:locale)", :constraints => { :locale => locale_matcher } do
 
+
     put '/mercury_update' => "mercury_update#update", :as => :mercury_update
 
     get "/transactions/op_status/:process_token" => "transactions#op_status", :as => :transaction_op_status
 
     # All new transactions (in the future)
     get "/transactions/new" => "transactions#new", as: :new_transaction
+    get "/transactions/braintree" => "transactions#braintree_process"
 
     # preauthorize flow
     get "/listings/:listing_id/preauthorize" => "preauthorize_transactions#preauthorize", :as => :preauthorize_payment
@@ -155,6 +157,7 @@ Kassi::Application.routes.draw do
           put :edit_look_and_feel, to: 'communities#update_look_and_feel'
           get :edit_featured_slider
           put :edit_featured_slider, to: 'communities#update_featured_slider'
+          get :edit_featured_products
           put :modify_slider
           get :edit_welcome_email
           post :create_sender_address
@@ -307,6 +310,7 @@ Kassi::Application.routes.draw do
       put "/people/confirmation" => "confirmations#create"
       get "/people/sign_up" => redirect("/%{locale}/login")
 
+
       # List few specific routes here for Devise to understand those
       get "/signup" => "people#new", :as => :sign_up
       get '/people/auth/:provider/setup' => 'sessions#facebook_setup' #needed for devise setup phase hook to work
@@ -390,7 +394,7 @@ Kassi::Application.routes.draw do
             post :send_confirmation
           end
         end
-        resources :followers
+        resources :followers 
         resources :followed_people
       end # people
 
