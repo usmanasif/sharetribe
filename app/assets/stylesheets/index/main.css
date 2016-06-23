@@ -1757,6 +1757,11 @@ form .checkbox-container label {
 
 
 }
+.home-fluid-thumbnail-grid-author-avatar {
+    display: inline-block;
+    vertical-align: middle;
+    width: 53px;
+}
 .delivery-method label {
     display: inline-block;
     vertical-align: middle;
