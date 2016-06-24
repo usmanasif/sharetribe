@@ -6,6 +6,7 @@ gem 'rails', '4.2.5.2'
 
 gem 'rails-erd'
 gem 'geocoder'
+gem 'httparty'
 
 
 gem 'coffee-rails', "~> 4.0.1"
