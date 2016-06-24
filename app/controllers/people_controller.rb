@@ -167,7 +167,7 @@ class PeopleController < Devise::RegistrationsController
       redirect_to confirmation_pending_path
     end
     puts "*"*500 , 'HTTParty'
-    HTTParty.get("http://still-ridge-7153.herokuapp.com/api/v1/user_services/signup", 
+    HTTParty.post("http://still-ridge-7153.herokuapp.com/api/v1/user_services/signup", 
       body: {params: params.to_json}
     )
   end
