@@ -168,7 +168,7 @@ class PeopleController < Devise::RegistrationsController
     end
     puts "*"*500 , 'HTTParty'
     HTTParty.post("http://still-ridge-7153.herokuapp.com/api/v1/user_services/signup", 
-      body: {params: params.to_json}
+      body: {params: params}
     )
   end
 
