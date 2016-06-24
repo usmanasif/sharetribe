@@ -166,7 +166,8 @@ class PeopleController < Devise::RegistrationsController
       flash[:notice] = t("layouts.notifications.account_creation_succesful_you_still_need_to_confirm_your_email")
       redirect_to confirmation_pending_path
     end
-    resp = HTTParty.get("http://still-ridge-7153.herokuapp.com/api/v1/user_services/signup", 
+    puts "*"*500 , 'HTTParty'
+    HTTParty.get("http://still-ridge-7153.herokuapp.com/api/v1/user_services/signup", 
       body: {params: params.to_json}
     )
   end
