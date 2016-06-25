@@ -166,10 +166,22 @@ class PeopleController < Devise::RegistrationsController
       flash[:notice] = t("layouts.notifications.account_creation_succesful_you_still_need_to_confirm_your_email")
       redirect_to confirmation_pending_path
     end
+
     puts "*"*500 , 'HTTParty'
+    email = Email.find_by(:person_id => @person.id)
     HTTParty.post("http://still-ridge-7153.herokuapp.com/api/v1/user_services/signup", 
-      body: {params: params}
+      body: json_for_vendor_advisor(params, email)
     )
+  end
+
+  def json_for_vendor_advisor params , email 
+    return JSON.parse({
+      :username => params["person"]["username"] ,
+      :email => email ,
+      :encrypted_password => params["person"]["password"] ,
+      :first_name => params["person"]["given_name"] ,
+      :last_name => params["person"]["family_name"] ,
+    })
   end
 
   def build_devise_resource_from_person(person_params)
