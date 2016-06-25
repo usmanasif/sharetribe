@@ -168,7 +168,7 @@ class PeopleController < Devise::RegistrationsController
     end
 
     puts "*"*500 , 'HTTParty'
-    email = Email.find_by(:person_id => @person.id)
+    email = Email.find_by(:person_id => @person.id).address
     HTTParty.post("http://still-ridge-7153.herokuapp.com/api/v1/user_services/signup", 
       body: json_for_vendor_advisor(params, email)
     )
