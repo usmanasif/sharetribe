@@ -157,7 +157,6 @@ Kassi::Application.routes.draw do
           put :edit_look_and_feel, to: 'communities#update_look_and_feel'
           get :edit_featured_slider
           put :edit_featured_slider, to: 'communities#update_featured_slider'
-          get :edit_featured_products
           put :modify_slider
           get :edit_welcome_email
           post :create_sender_address
@@ -333,8 +332,7 @@ Kassi::Application.routes.draw do
             put :close
             put :move_to_top
             put :show_in_updates_email
-            post :on_featured
-            post :off_featured
+            post :change_featured_status
           end
         end
         resources :person_messages

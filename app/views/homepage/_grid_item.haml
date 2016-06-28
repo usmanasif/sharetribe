@@ -15,14 +15,14 @@
           = link_to(person_path(username: listing.author.username), :class => "home-fluid-thumbnail-grid-author-name", title: name) do
             = name
 
-          - if !is_featured(listing.id)
-            = link_to on_featured_person_listing_path(@current_user,listing.id ), :method => "post", :id => "followButton" do
-              %button.btn-un{name: 'featured' , style: "background:green;color:white; border-radius: 26px;"}
-                Feature
-          -else
-            = link_to off_featured_person_listing_path(@current_user , listing.id ), :method => "post", :id => "followButton" do
-              %button.btn-un{name: 'unfeatured', style: "background:red;color:white; border-radius: 26px;"}
-                Un Feature
+          
+            = link_to change_featured_status_person_listing_path(@current_user,listing.id ),data: { method: :post, remote: true, params: { act: "on" }.to_param } , id: "b_f_#{listing.id}" do
+              - if !is_featured(listing.id)
+                %button.btn-un.validate.f_b{id: "b_#{listing.id}"}
+                  Featured
+              -else
+                %button.btn-un.validate.un_f_b{id: "b_#{listing.id}"}
+                  Un Featured
 
         - else
           .home-fluid-thumbnail-grid-details
@@ -33,13 +33,4 @@
             .home-fluid-thumbnail-grid-details-distance{title: dist_string}
               = dist_string
 
-:css
-  .btn-un {
-         background: red;
-      color: white;
-      border-radius: 26px;
-      position: absolute;
-      right: 7px;
-      top: 0px;
-      padding: 1px 16px;
-  }
+

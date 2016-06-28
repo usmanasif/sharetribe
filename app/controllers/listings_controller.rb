@@ -488,15 +488,17 @@ class ListingsController < ApplicationController
 
   end
 
-  def on_featured
-    l=Listing.find(params[:id]).update_attribute(:featured, true)        
+  def change_featured_status
+    if params["act"].to_s == "on".to_s
+      puts "*"*50 , 'on' , params
+      l=Listing.find(params[:id]).update_attribute(:featured, true)
+    else
+      puts "*"*50 , 'off' , params
+      l=Listing.find(params[:id]).update_attribute(:featured, false)
+    end        
     redirect_to :back
   end
 
-  def off_featured
-    l=Listing.find(params[:id]).update_attribute(:featured, false)
-    redirect_to :back
-  end
 
 
   private

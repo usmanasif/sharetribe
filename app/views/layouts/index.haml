@@ -1,10 +1,9 @@
-!!!
 %html
   %head
     %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}
       %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
       = csrf_meta_tags
-      %title Vendor Advisor
+      %title VendorAdvisor
       = stylesheet_link_tag "index/app-index"
       %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
       = javascript_include_tag 'index/app-index'
@@ -121,7 +120,7 @@
     .container
       .header-content
         .col-md-2.col-sm-2.col-xs-12.header-p-5
-          %a.logo{:href => root_path } Vendor Advisors
+          %a.logo{:href => root_path } VendorAdvisor
         .col-md-1.col-sm-1.col-xs-1.header-p-5
           .dropdown.dorpdown-shop
             %button#dropdownMenu1.btn.btn-default.dropdown-toggle.btn-shop{"aria-expanded" => "true", "aria-haspopup" => "true", "data-toggle" => "dropdown", :type => "button"}

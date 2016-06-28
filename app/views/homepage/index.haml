@@ -154,3 +154,51 @@
             = t(".no_listings_notification",
                   add_listing_link: link_to(t(".add_listing_link_text"),
                   new_listing_path(ref: "add_listing_link"))).html_safe
+
+
+:css
+  .btn-un {
+      background: red;
+      color: white;
+      border-radius: 26px;
+      position: absolute;
+      right: 7px;
+      top: 0px;
+      padding: 1px 16px;
+  }
+  .f_b{
+    background:green;
+    color:white;
+    border-radius: 26px;
+  }
+  .un_f_b{
+    background:red;
+    color:white;
+    border-radius: 26px;
+  }
+
+%script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
+:javascript
+  $(document).ready(function(){
+    $(".validate").click(function(e){
+     var b_text = e.toElement.innerText
+     var a_id = $(e.target).parent().attr('id')
+     console.log(a_id)
+     console.log(b_text)
+     if(b_text == 'Featured'){
+        console.log("-=-=-=" + e.toElement.id)
+        $("#" + e.toElement.id).text("Un Featured")
+        $("#" + e.toElement.id ).removeClass("f_b")
+        $("#" + e.toElement.id ).addClass("un_f_b")
+        console.log($("#" + a_id).attr('data-params' , 'act=on'))
+     }else{
+        console.log("-=-=" + e.toElement.id )
+        $("#" + e.toElement.id).text("Featured")
+        $("#" + e.toElement.id ).removeClass("un_f_b")
+        $("#" + e.toElement.id ).addClass("f_b")
+        console.log($("#" + a_id).attr('data-params' , 'act=off'))
+
+     }
+     console.log($("#" + a_id).attr('data-params'))
+    })
+  });
