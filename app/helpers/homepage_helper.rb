@@ -45,8 +45,18 @@ module HomepageHelper
   end
 
   def is_featured id
-    puts "^"*50 , id , Listing.find(id.to_i).featured
     return Listing.find(id.to_i).featured
+  end
+
+  def is_community_admin user
+    if user
+      c_m = CommunityMembership.find_by(community_id: @current_community.id , person_id: user.id , admin: true )
+      if c_m
+        return true
+      else
+        return false
+      end
+    end 
   end
 
 end 
